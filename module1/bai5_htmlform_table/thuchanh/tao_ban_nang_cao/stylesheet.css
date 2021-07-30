@@ -1,0 +1,10 @@
+th {
+    background: red;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    width: 70%;
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form</title>
+</head>
+<body>
+<div class="phan1">
+<h1 style="background: red ;width:63%" >SỞ THÍCH CỦA BẠN</h1>
+<form style=" color: blue">
+ <label> Họ và tên <input type="text" name="ten"></label><br><br>
+    <label> Email            <input type="text" name="email"></label><br><br>
+    Sở thích<br><br>
+    <input type="checkbox" name="hobly"> Thể thao
+    <input type="checkbox" name="hobly"> Lướt web
+    <input type="checkbox" name="hobly"> Du lịch
+    <input type="checkbox" name="hobly"> Âm nhạc
+    <br>
+    <input type="checkbox" name="hobly"> Chơi game
+    <input type="checkbox" name="hobly"> Đọc sách
+    <input type="checkbox" name="hobly"> Điện ảnh
+   <br><br>
+    <input type="submit" value="Gửi thông tin" style="background: gray">
+    <input type="reset" value="Nhập lại" style="background: gray">
+    <style>
+        .phan1{
+            border-radius: 25px;
+            background-color: pink;
+            padding: 50px;
+            width: 40%;
+        }
+        </style>
+</form>
+</div>
+        <br>
+   <div class="phan2">
+    <h1 style="background: yellowgreen; width: 63%" >ĐĂNG KÝ HỌC VIÊN</h1>
+    <form>
+       <label> Họ và tên <input type="text" name="name"></label><br><br>
+        <label> Ngày Sinh  <input type="date" name="Date"></label><br><br>
+        <label>Địa Chỉ <br><textarea cols="30" rows="5"> </textarea></label><br><br>
+        <label> Lớp
+        <select >
+            <option> Lơp 01</option>
+            <option> Lơp 02</option>
+            <option> Lớp 03</option>
+        </select>
+        </label><br><br>
+        <label>Email <input type="text"name="email"> </label><br><br>
+        <label>Điện thoại <input type="number" name="sdt"></label><br><br>
+        <input type="submit" value="Đăng ký" style="background: dimgray">
+        <input type="reset" value="Nhập lại" style="background:dimgray ">
+        <style>
+            .phan2{
+                background: aquamarine;
+                padding: 50px;
+                width: 40%;
+
+            }
+        </style>
+    </form>
+</div>
+</body>
+</html>
