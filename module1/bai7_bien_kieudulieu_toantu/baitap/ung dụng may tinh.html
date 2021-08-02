@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ưng Dụng Máy Tính</title>
+</head>
+<body>
+<h1> Caculator</h1>
+<form>
+    <input type="number" id="dv1">
+    <input type="number" id="dv2">
+    <button onclick="tongg()"> Addition(+)</button>
+    <button onclick="sub()"> Subtraction(-)</button>
+    <button onclick="mul()">Multiplication(x)</button>
+    <button onclick="div()">Division(/)</button>
+    <p>Result Division:1</p>
+
+</form>
+<script>
+    function tongg() {
+        let nhapp1 = document.getElementById('dv1').value;
+        let nhapp2 = document.getElementById('dv2').value;
+        alert(parseInt(nhapp1) + parseInt(nhapp2));
+    }
+
+    function sub() {
+        let nhapp1 = document.getElementById('dv1').value;
+        let nhapp2 = document.getElementById('dv2').value;
+        alert(parseInt(nhapp1) - parseInt(nhapp2));
+    }
+
+    function mul() {
+        let nhapp1 = document.getElementById('dv1').value;
+        let nhapp2 = document.getElementById('dv2').value;
+        alert(parseInt(nhapp1) * parseInt(nhapp2));
+    }
+
+    function div() {
+        let nhapp1 = document.getElementById('dv1').value;
+        let nhapp2 = document.getElementById('dv2').value;
+        alert(parseInt(nhapp1) / parseInt(nhapp2));
+    }
+</script>
+
+</body>
+</html>

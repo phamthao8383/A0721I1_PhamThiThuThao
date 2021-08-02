@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực Hành</title>
+</head>
+<body>
+<script>
+  var year = parseInt(prompt("enter a year"));
+  var isLeapYear = false;
+  if (year % 4 == 0) {
+    if (year % 100 == 0) {
+      if (year % 400 == 0) {
+        isLeapYear = true;
+      }
+    } else {
+      isLeapYear = true;
+    }
+  }
+
+  if (isLeapYear) {
+    alert(year + " is a leap year");
+  } else {
+    alert(year + " is NOT a leap year");
+  }
+</script>
+</body>
+</html>
