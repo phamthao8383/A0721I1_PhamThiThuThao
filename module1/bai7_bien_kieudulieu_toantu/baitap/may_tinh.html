@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Caculator</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="so1"></td>
+        <td><input type="number" id="so2"></td>
+
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add()">Addition(+)</button>
+        </td>
+        <td>
+            <button onclick="sub()">Subtraction(-)</button>
+        </td>
+        <td>
+            <button onclick="mul()">Multiplication(X)</button>
+        </td>
+        <td>
+            <button onclick="div()">Division(/)</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="out">Result Division:</td>
+    </tr>
+</table>
+<script>
+    function add() {
+        let input1 = document.getElementById('so1').value;
+        let input2 = document.getElementById('so2').value;
+        input1 = parseInt(input1);
+        input2 = parseInt(input2);
+        let kq = (input1 + input2)
+        document.getElementById('out').innerText = 'Result Divistion:' + kq;
+    }
+
+    function sub() {
+        let input1 = document.getElementById('so1').value;
+        let input2 = document.getElementById('so2').value;
+        input1 = parseInt(input1);
+        input2 = parseInt(input2);
+        let kq = (input1 - input2)
+        document.getElementById('out').innerText = 'Result Divistion:' + kq;
+    }
+
+    function mul() {
+        let input1 = document.getElementById('so1').value;
+        let input2 = document.getElementById('so2').value;
+        input1 = parseInt(input1);
+        input2 = parseInt(input2);
+        let kq = (input1 * input2)
+        document.getElementById('out').innerText = 'Result Divistion:' + kq;
+    }
+
+    function div() {
+        let input1 = document.getElementById('so1').value;
+        let input2 = document.getElementById('so2').value;
+        input1 = parseInt(input1);
+        input2 = parseInt(input2);
+        let kq = (input1 / input2)
+        document.getElementById('out').innerText = 'Result Divistion:' + kq;
+    }
+</script>
+</body>
+</html>

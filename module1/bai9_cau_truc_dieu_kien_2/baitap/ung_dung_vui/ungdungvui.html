@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ứng dụng vui</title>
+</head>
+<body style="text-align:center">
+<h1> Do you love me?</h1>
+<button onclick="yes()" id="btnyes" > YES</button>
+<button onmouseover="no()" id="btnno">NO</button>
+<script>
+  function yes(){
+      alert('Yes.you are right');
+  }
+  function no(){
+      let x = Math.floor(Math.random()*window.innerWidth);
+      let y = Math.floor(Math.random()*window.innerHeight);
+      document.getElementById('btnno').style.left = x+ 'px';
+      document.getElementById('btnno').style.top = y +'px'
+  }
+</script>
+<style>
+    #btnno{
+        position: absolute;
+    }
+</style>
+</body>
+</html>

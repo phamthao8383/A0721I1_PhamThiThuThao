@@ -13,7 +13,7 @@
     var b = true;
     var s = 'Hà Nội';
 
-    document.write('i = '+i);
+    document.write('i = ' + i);
     document.write('<br/>')
     document.write('f = ' + f)
     document.write('<br/>')
@@ -30,20 +30,21 @@
     var width = 20;
     var height = 10;
     var area = width * height
-    document.write('Area ='+area)
+    document.write('Area =' + area)
 </script>
 <h1> Bài 3</h1>
 <script>
     var a = prompt("nhap a ");
-    var b= prompt("nhap b ");
+    var b = prompt("nhap b ");
+    a = parseInt(a);
+    b = parseInt(b);
 
-        if (a % b == 0){
-            alert("a là bội của b");
+    if (a % b == 0) {
+        alert("a là bội của b");
 
-        }
-        else {
-            alert("a không là bội của b");
-        }
+    } else {
+        alert("a không là bội của b");
+    }
 </script>
 </body>
 </html>

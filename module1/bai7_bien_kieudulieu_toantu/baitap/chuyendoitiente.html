@@ -2,45 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ứng dụng chuyển đổi tiền tệ</title>
+    <title>Chuyển Đổi Tiền Tệ</title>
 </head>
 <body>
-<form >
-    <b> Amount</b>
-    <input type="number"   id="Amount">
-    <b>  From Currency</b>
-    <select  id="select1">
-        <option value="a"> VietNam</option>
-        <option value="b "> USD</option>
-    </select>
-    <b> To Curency</b>
-    <select id="select2">
-        <option value="a">VietNam</option>
-        <option value="b">USD</option>
-    </select>
-    <button onclick="chuyen()">Convert</button>
-<p style="color: blue"> Result:0.000043878894251864855</p>
-</form>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th> To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="number" value="input" id="amount"></td>
+        <td>
+            <select id="select1">
+                <option value="a"> Viet Nam</option>
+                <option value="b"> USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="select2">
+                <option value="b">USD</option>
+                <option value="a"> Viet Nam</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="convert()"> Convert</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="result">Result :</td>
+    </tr>
+</table>
+
 <script>
-function chuyen() {
-    let giatrinhapvao = document.getElementById('Amount').value;
-    let select1 = document.getElementById('select1').value;
-    let select2 = document.getElementById('select2').value;
-    giatrinhapvao = parseInt(giatrinhapvao);
-    if (select1 == select2) {
-        alert(giatrinhapvao);
+    function convert() {
+        let input = document.getElementById('amount').value;
+        let select1 = document.getElementById('select1').value;
+        let select2 = document.getElementById('select2').value;
+        let result;
+        input = parseInt(input);
+        if (select1 == 'a' && select2 == 'b') {
+            result = (input / 23000);
+            document.getElementById('result').innerText = 'Result :' + result;
+        } else if (select1 == 'b' && select2 == 'a') {
+            result = (input * 23000);
+            document.getElementById('result').innerText = 'Result :' + result;
+        } else if (select1 == select2) {
+            result = input;
+            document.getElementById('result').innerText = 'Result :' + result;
+        }
     }
-    if (select1 == "b" && select2 == "a") {
-        alert(giatrinhapvao*23000);
-    }
-    if (select1 == "a" && select2 == "b") {
-        alert(giatrinhapvao/23000);
-    }
-}
-
-
-
-
 </script>
+
 </body>
 </html>
