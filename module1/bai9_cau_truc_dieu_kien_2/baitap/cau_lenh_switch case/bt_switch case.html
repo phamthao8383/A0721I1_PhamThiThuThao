@@ -39,7 +39,10 @@
                 break;
             case 2:
                 document.getElementById('out').innerHTML='Tháng '+input+ ' có 28 ngày hoặc 29 ngày';
-                break
+                break;
+            default:
+                document.getElementById('out').innerHTML='Tháng '+input+ ' không hợp lệ';
+                break;
 
         }
     }
