@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phương trình bậc 2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+
+    let a = prompt('Nhập giá trị của a');
+    let b = prompt('Nhập giá trị của b');
+    let c = prompt('Nhập giá trị của c');
+
+
+    if(a == 0) {
+
+        if(b == 0) {
+            if (c == 0) {
+                alert('Phuong trinh vo so nghiem')
+
+            } else {
+                alert('Phuong trinh vo nghiem')
+            }
+        } else {
+            alert('Phuong trinh co nghiem duy nhat: '+(-c/b))
+        }
+    } else {
+        let delta = b*b - 4*a*c;
+        if(delta > 0) {
+            let x1 = (-b+Math.sqrt(delta))/(2*a);
+            let x2 = (-b-Math.sqrt(delta))/(2*a);
+            alert('Nghiem thu nhat x1 = '+x1+'\n Nghiem thu hai x2 = '+x2)
+        } else if ( delta == 0) {
+            let sum = -b/2*a
+            alert('Phuong trinh co nghiem kep: x1 = x2 = '+sum)
+        } else {
+            alert('Phuong trinh vo nghiem')
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input type="range" max="1" min="0" value="0" id="good" onclick="change('good')"> GOOD</td>
+    </tr>
+    <tr>
+        <td><input type="range" max="1" min="0" value="0" id="cheap" onclick="change('cheap')"> CHEAP</td>
+    </tr>
+    <tr>
+
+        <td><input type="range" max="1" min="0" value="0" id="fast" onclick="change('fast')"> FAST</td>
+    </tr>
+</table>
+</body>
+<script>
+
+    function change(so) {
+        let f=document.getElementById('fast');
+        let c=document.getElementById('cheap');
+        let g=document.getElementById('good');
+        switch (so) {
+            case "good":
+                if (c.value == 1) {
+                    f.value = 0;
+                }
+                break;
+            case "cheap":
+                if (f.value == 1) {
+                    g.value = 0;
+                }
+                break;
+            case "fast":
+                if (g.value == 1) {
+                    c.value=0;
+                }
+                break;
+
+        }
+    }
+
+
+</script>

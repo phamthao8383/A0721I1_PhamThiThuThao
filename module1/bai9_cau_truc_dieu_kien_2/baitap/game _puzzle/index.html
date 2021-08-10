@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table onclick="mauA()">
+    <tr>
+        <td> <button onclick="btnA()"><img src="img1.1.jpg" height="200" width="200" id="img1"/></button></td>
+        <td><button onclick="btnB()"><img src="img1.2.jpg" height="200" width="200" id="img2"/></button></td>
+        </tr>
+    <tr>
+        <td><button onclick="btnC()"><img src="img1.3.jpg" height="200" width="200" id="img3"/></button></td>
+        <td><button onclick="btnD()"><img src="img1.4.jpg" height="200" width="200" id="img4"/></button></td>
+    </tr>
+    <script>
+        let a ;
+        let b ;
+          let c;
+          let d ;
+          function btnA() {
+
+
+          }
+          function btnB() {
+              b=b+1;
+              if (b==1) {
+                  document.getElementById('img2').src='img2.2.jpg';
+              }
+              else if(b==2){
+                  document.getElementById('img2').src = 'img3.2.jpg';
+              }
+              else if(b>=3){
+                  document.getElementById('img2').src = 'img1.2.jpg';
+              }
+          }
+          function btnC() {
+              c=c+1;
+              if (c==1) {
+                  document.getElementById('img3').src='img2.3.jpg';
+              }
+              else if(c==2){
+                  document.getElementById('img3').src = 'img3.3.jpg';
+              }
+              else if(c>=3){
+                  document.getElementById('img3').src = 'img1.2.jpg';
+              }
+          }
+          function btnD() {
+              d=d+1;
+              if (d==1) {
+                  document.getElementById('img4').src='img2.4.jpg';
+              }
+              else if(d==2){
+                  document.getElementById('img4').src = 'img3.4.jpg';
+              }
+              else{
+                  document.getElementById('img4').src = 'img1.2.jpg';
+              }
+          }
+
+    </script>
+</table>
+</body>
+</html>

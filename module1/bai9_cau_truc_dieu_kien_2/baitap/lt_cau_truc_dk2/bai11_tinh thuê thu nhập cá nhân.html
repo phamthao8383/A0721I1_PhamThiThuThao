@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong =parseInt(prompt("nhập "));
+    let sothue,luongrong;
+    if(luong>15){
+        sothue=luong*30/100;
+
+    }
+    else if(luong>=7){
+        sothue=luong*20/100;
+    }
+    else {
+        sothue=luong*10/100;
+    }
+    luongrong=luong-sothue;
+    alert("so tien luong ban than la"+luongrong);
+
+</script>
+</body>
+</html>

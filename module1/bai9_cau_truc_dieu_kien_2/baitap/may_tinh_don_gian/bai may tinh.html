@@ -5,44 +5,61 @@
     <title>ứng dụng máy tính</title>
 </head>
 <body>
-<style>
-    .table{
-        border-collapse: collapse;
-    }
-</style>
+
 <table border="1">
     <tr>
-        <td colspan="4"><input type="number" id="input"></td>
+        <td colspan="4"><input type="text" id="input" ></td>
 
     </tr>
     <tr>
-        <td> <button> 1</button></td>
-        <td> <button> 2</button></td>
-        <td> <button> 3</button></td>
-        <td> <button> +</button></td>
+        <td><input type="button" value="1" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="2" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="3" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="+" onclick="nhap(this.value)"></td>
     </tr>
     <tr>
-        <td> <button> 4</button></td>
-        <td> <button> 5</button></td>
-        <td> <button> 6</button></td>
-        <td> <button> -</button></td>
+        <td><input type="button" value="4" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="5" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="6" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="-" onclick="nhap(this.value)"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="8" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="9" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="*" onclick="nhap(this.value)"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="c" onclick="xoa()"></td>
+        <td><input type="button" value="0" onclick="nhap(this.value)"></td>
+        <td><input type="button" value="=" onclick="Tinh()"></td>
+        <td><input type="button" value="/" onclick="nhap(this.value)"></td>
+    </tr>
+    <tr>
+        <td colspan="4"><input type="button" value="x" onclick="xoaKt()"> </td>
 
     </tr>
-    <tr>
-        <td> <button> 7</button></td>
-        <td> <button> 8</button></td>
-        <td> <button> 9</button></td>
-        <td> <button> X</button></td>
-    </tr>
-    <tr>
-        <td> <button> C</button></td>
-        <td> <button> 0</button></td>
-        <td> <button> =</button></td>
-        <td> <button> /</button></td>
-    </tr>
+
+
 </table>
 <script>
-    
+        function nhap(so) {
+        document.getElementById("input").value +=so;
+    }
+        function Tinh(){
+        let string = document.getElementById("input").value;
+        document.getElementById("input").value= eval(string);
+    }
+        function xoa() {
+        document.getElementById("input").value="";
+    }
+        function xoaKt() {
+        let string = document.getElementById("input").value;
+        let string1 = string.substr(0, string.length - 1);
+        document.getElementById("input").value = string1;
+    }
 </script>
+    
+
 </body>
 </html>
