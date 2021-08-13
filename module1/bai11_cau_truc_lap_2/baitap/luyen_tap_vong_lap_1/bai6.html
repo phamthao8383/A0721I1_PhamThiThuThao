@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tong = 0;
+    let count = 0;
+    let day="";
+    for (let i = 1; ;i++) {
+        if (i % 7 == 0 ) {
+            day+=i;
+            tong += i;
+            count++;
+            if (count==30)
+                break;
+        }
+    }
+    document.write(day+ "<br>");
+    document.write("Tổng bằng "+tong)
+
+
+</script>
+
+</body>
+</html>

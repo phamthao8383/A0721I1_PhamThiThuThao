@@ -7,8 +7,12 @@
 <body>
 <script>
     let a=parseInt(prompt("Số tiền vay: "));
-    let l =a*0.03/12;
-    alert("lãi suất hàng tháng"+l);
+    let l;
+    for(let n=1;n<=12;n++){
+        l =a*0.03*n;
+        document.write("lãi suất sau "+n+" tháng = "+l+" đồng"+"<br>");
+    }
+
 </script>
 
 </body>
