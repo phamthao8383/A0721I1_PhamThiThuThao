@@ -9,20 +9,11 @@
   let a=parseFloat(prompt("nhap canh a"));
   let b=parseFloat(prompt("nhap canh b"));
   let c=parseFloat(prompt("nhap canh c"));
-  if(a>0&&b>0&&c>0)
-  {
-      if (a+b>0){
-          alert("là cạnh của tam giac");
-      }
-      else if(b+c>0){
-          alert("là cạnh của tam giac");
-      }
-      else {
-          alert( "là cạnh của tam giac");
-      }
+  if(a>0 && b>0 && c>0 && a+b>c && a+c>b && b+c>a){
+      alert('La 3 canh cua mot tam giac');
   }
-  else {
-      alert("không phải cạnh tam giác");
+  else{
+      alert(" 3 canh khong phai là canh cua mot tam giac");
   }
 </script>
 

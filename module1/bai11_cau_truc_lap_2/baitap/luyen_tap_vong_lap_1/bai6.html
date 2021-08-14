@@ -8,18 +8,18 @@
 <script>
     let tong = 0;
     let count = 0;
-    let day="";
+    let day ="";
     for (let i = 1; ;i++) {
         if (i % 7 == 0 ) {
-            day+=i;
+            day += i+" ";
             tong += i;
             count++;
             if (count==30)
                 break;
         }
     }
-    document.write(day+ "<br>");
-    document.write("Tổng bằng "+tong)
+    document.write(day+"<br>");
+    document.write("Tổng 30 số đầu tiên chia hết cho 7 = "+tong);
 
 
 </script>

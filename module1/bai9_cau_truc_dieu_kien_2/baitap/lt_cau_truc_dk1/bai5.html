@@ -6,17 +6,17 @@
 </head>
 <body>
 <script>
-  let bp1= parseFloat(prompt("nhap BP1"));
-  let gk = parseFloat(prompt("nhap GK"));
-  let ck = parseFloat(prompt("nhap CK"));
-  let tb=(bp1*0.2+gk*0.3+ck*0.5)
-  if(tb>= 8.5){
+  let biemBoPhan= parseFloat(prompt("nhap BP1"));
+  let giuaKi = parseFloat(prompt("nhap GK"));
+  let cuoiKi = parseFloat(prompt("nhap CK"));
+  let trungBinh=(biemBoPhan*0.2+giuaKi*0.3+cuoiKi*0.5)
+  if(trungBinh>= 8.5){
       alert("Loại : A");
-  }else if(tb>=7){
+  }else if(trungBinh>=7){
       alert("Loại :B");
-  }else if(tb>=5.5){
+  }else if(trungBinh>=5.5){
       alert("Loại :C");
-  }else if(tb>=4){
+  }else if(trungBinh>=4){
       alert("Loại :D");
   }else {
       alert("Loại : F");
