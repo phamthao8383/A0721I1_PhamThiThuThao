@@ -7,15 +7,29 @@
 <body>
 
 <script>
+    let count=0;
+    let num =2;
+    let result="";
+    while (count<20){
+        let flag=true;
+        if(num<2){
+            flag=false;
+        }else {
+            for(let i=2;i<num;i++){
+                if(num%i==0){
+                    flag=false;
+                    break;
+                }
+            }
+        }
+        if(flag){
+            result+=num+",";
+            count++;
 
-
-
-
+        }
+        num++;
     }
-
-
-
-
+    alert(result);
 </script>
 </body>
 </html>
