@@ -6,21 +6,20 @@
 </head>
 <body>
 <script>
-    let tong = 0;
-    let count = 0;
-    let day ="";
-    for (let i = 1; ;i++) {
-        if (i % 7 == 0 ) {
-            day += i+" ";
-            tong += i;
+    let count=0;
+    let tong=0;
+    let i=0;
+    let index="";
+    while (count<30){
+        if (i%7==0){
+            index+=i+" ";
+            tong+=i;
             count++;
-            if (count==30)
-                break;
         }
+        i++;
     }
-    document.write(day+"<br>");
-    document.write("Tổng 30 số đầu tiên chia hết cho 7 = "+tong);
-
+    document.write(index);
+    document.write("Tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên là: "+tong);
 
 </script>
 
