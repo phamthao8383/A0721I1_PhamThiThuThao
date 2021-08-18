@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="Play()" value="choi"> Chơi</button>
+<button onclick="Replay()" value="choilai"> Chơi lại</button>
+
+<script>
+    let n;
+    function Play(){
+        n = parseInt(prompt("nhap khoang"));
+        let m =parseInt(prompt("giá trị đoán"));
+        let p;
+            p=Math.floor(Math.random()*n);
+            if(p==m){
+                alert("đoán ok");
+            } else if(p != m) {
+                    alert("Bạn đoán sai số đúng là " + p);
+                }
+    }
+    function Replay(){
+        let m = parseInt(prompt("giá trị đoán"));
+            alert("đoán ok");
+    }
+
+
+</script>
+</body>
+</html>
