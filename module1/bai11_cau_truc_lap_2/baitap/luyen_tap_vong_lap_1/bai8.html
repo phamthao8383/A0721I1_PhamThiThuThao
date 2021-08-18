@@ -5,12 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<button onclick="Play()" value="choi"> Chơi</button>
-<button onclick="Replay()" value="choilai"> Chơi lại</button>
+<button onclick="play()" value="choi"> Chơi</button>
+<button onclick="replay()" value="choilai"> Chơi lại</button>
 
 <script>
     let n;
-    function Play(){
+    function play(){
         n = parseInt(prompt("nhap khoang"));
         let m =parseInt(prompt("giá trị đoán"));
         let p;
@@ -21,7 +21,7 @@
                     alert("Bạn đoán sai số đúng là " + p);
                 }
     }
-    function Replay(){
+    function replay(){
         let m = parseInt(prompt("giá trị đoán"));
             alert("đoán ok");
     }
