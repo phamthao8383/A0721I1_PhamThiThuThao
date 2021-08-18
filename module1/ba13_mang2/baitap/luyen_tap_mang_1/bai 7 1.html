@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [], boo = true, vitri =[],dem = 0
+    let mangnew = []
+
+    for (let i = 0; i < 10; i++) {
+        mang[i] = prompt("Nhập số vào mảng")
+        if(mang[i] == "V"){
+            boo =false
+        }
+
+        if (mang[i] != "V"){
+            mangnew.push(mang[i])
+        }
+    }
+    document.write("Mang = ["+mang+"]<br>")
+    if(boo == false){
+        document.write("Đã xóa phần tử V. Mang = ["+mangnew+"]<br>")
+    }
+</script>
+</body>
+</html>

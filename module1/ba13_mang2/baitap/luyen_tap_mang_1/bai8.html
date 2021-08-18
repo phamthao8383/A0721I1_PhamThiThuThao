@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array=[];
+  for(let i=0;i<=10;i++){
+      array[i]=parseInt(prompt("nhap phan tu "));
+
+  }
+    document.write("Mang ban đầu= ["+array+"]<br>")
+
+    array.sort(function (a,b){
+        return b-a;
+    })
+    document.write("Mang đã sắp xếp = ["+array+"]<br>")
+</script>
+</body>
+</html>

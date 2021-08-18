@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [1, 4, 77, 9, 15, -45, 2, 6, 95, -4];
+    let max = arr[0];
+    let index = 0;
+    let viTri = "";
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            index = arr[i];
+            viTri = i ;
+
+        }
+
+    }
+
+    document.write(index + " là giá trị lớn nhất.Tại vị trí số " + viTri);
+</script>
+</body>
+</html>

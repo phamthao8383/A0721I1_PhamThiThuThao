@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="text"value="" >
+<input type="button" id="n" value="Hiển Thị" onclick="texT()">
+<div id="result"></div>
+<script>
+
+    function texT() {
+        let num = document.getElementById("text").value;
+        let str = num.toString();
+        let result = [str[0]];
+
+        for (let x = 1; x < str.length; x++) {
+            if (str[x - 1] % 2 === 0 && str[x] % 2 === 0) {
+                result.push('-', str[x]);
+            } else {
+                result.push(str[x]);
+            }
+        }
+        document.getElementById("result").innerHTML=result.join('');
+
+    }
+</script>
+</body>
+
+</html>

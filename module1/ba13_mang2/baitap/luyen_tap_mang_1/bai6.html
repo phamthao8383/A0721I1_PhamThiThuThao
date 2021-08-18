@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>JS Bin</title>
+  <style>
+    body {padding-top:50px}
+  </style>
+</head>
+
+<body>
+<input type="text" id="txtValue"/>
+<input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>
+<input type="text" id="txt"/>
+<input type="button" id="btnDisplay" value="Display" onclick="display();"/>
+<div id="result"></div>
+<div id="result1"></div>
+</body>
+<script>
+  let x = 0;
+  let array = Array();
+  let check;
+  function add_element_to_array() {
+    array[x] = document.getElementById("txtValue").value;
+    x++;
+    let e = "<hr/>";
+    for (let i = 0; i < array.length; i++) {
+      e += "Element " + i + " = " + array[i] + "<br/>";
+    }
+    document.getElementById("result").innerHTML = e;
+
+  }
+  function display()
+  {
+    check=document.getElementById("txt").value;
+    let boo =true;
+    for(let i=0;i<=array.length;i++){
+      if(array[i]===check){
+        boo=false;
+      }
+
+    }
+    if(boo == false){
+      document.getElementById("result1").innerText="v is in the array"
+    }else{
+      document.getElementById("result1").innerText="v is not in the array"
+    }
+
+
+  }
+
+</script>
+
+</html>

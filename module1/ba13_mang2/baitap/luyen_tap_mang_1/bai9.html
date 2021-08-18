@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mangA=[];
+  let mangB=[];
+  let mangC=[];
+  for(let i=1;i<=10;i++){
+      mangA[i]=parseInt(prompt("nhap mang 1"));
+  }
+  document.write("MangA = [" +mangA+"]<br>");
+
+  for(let j=1;j<=10;j++){
+      mangB[j]=parseInt(prompt("nhap mang 2"));
+  }
+  document.write("MangB = [" +mangB+"]<br>");
+
+  mangC=mangA.concat(mangB);
+  document.write("MangC = [" +mangC+"]<br>");
+
+</script>
+</body>
+</html>

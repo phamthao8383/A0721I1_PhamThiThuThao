@@ -8,7 +8,6 @@
 <script>
     let n=parseInt(prompt("nhap gia tri "));
     for(let i=0;i<n;i++){
-        //độ cao htg
         for(let j=0;j<=i;j++){
             document.writeln("*");
 
@@ -17,13 +16,33 @@
     }
     document.write("<br><br>");
     for(let i=n;i>0;i--){
-        //độ cao htg
         for(let j=0;j<i;j++){
             document.writeln("*");
 
         }
         document.writeln("<br>");
     }
+    document.write("<br><br>");
+
+    document.write("<div style='width: 100px' align='right'>")
+    for (let i = 0; i<5; i++){
+        for (let j=0;j<=i;j++){
+
+            document.write("*")
+        }
+        document.write("<br>")
+    }
+    document.write("<br><br>");
+    document.write("<div style='width: 100px' align='right'>")
+    for(let i=n;i>0;i--){
+        for(let j=0;j<i;j++){
+            document.writeln("*");
+
+        }
+        document.writeln("<br>");
+    }
+    document.write("<br><br>");
+
 
 
 
