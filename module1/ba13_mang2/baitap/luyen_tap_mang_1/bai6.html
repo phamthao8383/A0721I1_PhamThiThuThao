@@ -34,14 +34,14 @@
   function display()
   {
     check=document.getElementById("txt").value;
-    let boo =true;
+    let boo =false;
     for(let i=0;i<=array.length;i++){
       if(array[i]===check){
-        boo=false;
+        boo=true;
       }
 
     }
-    if(boo == false){
+    if(boo == true){
       document.getElementById("result1").innerText="v is in the array"
     }else{
       document.getElementById("result1").innerText="v is not in the array"

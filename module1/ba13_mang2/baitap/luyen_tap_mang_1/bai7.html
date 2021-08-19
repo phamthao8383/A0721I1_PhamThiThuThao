@@ -7,18 +7,18 @@
 <body>
 <div id="result"></div>
 <script>
-let vitri=[0];
-    let boo =true;
+
+    let boo =false;
     let v=parseInt(prompt());
     let arr=[8,4,6,23,9,66,36,81,67,34];
     for(let i=0;i<=10;i++){
         if(arr[i]===v){
-            boo=false;
+            boo =true;
         }
     }
-    if(boo == false){
+    if(boo == true){
         for (let i=0;i<arr.length;i++){
-         arr[i]=arr[i-1];
+         arr[i]=arr[i+1];
 
         }
         document.write("Mang = ["+arr+"]<br>");
