@@ -7,30 +7,28 @@
 <body>
 <div STYLE="color: red ; text-align: center;"> <b>GAME ĐOÁN SỐ </b></div>
 <button onclick="play()" value="choi"> Chơi</button>
-<button onclick="replay()" value="choilai"> Chơi lại</button>
 
 <script>
     let n,m,p;
+    let count =0;
     function play(){
-        n = parseInt(prompt("nhap khoang"));
-        m =parseInt(prompt("giá trị đoán"));
-            p=Math.floor(Math.random()*n);
-            if(p==m){
-                alert("đoán đúng");
-            } else {
-                alert("đoán sai")
+        while (count<3) {
+            n = parseInt(prompt("nhap khoang"));
+            m = parseInt(prompt("giá trị đoán"));
+            p = Math.floor(Math.random() * n);
+
+            if (p == m) {
+                alert("đoán đúng ");
+            } else if (m < p) {
+                alert("đoán sai tăng thêm giá trị");
+            } else if (m > p) {
+                alert("đoán sai  giảm bớt giá trị");
             }
-    }
-    function replay() {
-        n = parseInt(prompt("nhap khoang"));
-         m =parseInt(prompt("giá trị đoán"));
-        p=Math.floor(Math.random()*n);
-        if(p==m){
-            alert("đoán đúng");
-        } else if(p != m) {
-            alert("Bạn đoán sai số đúng là " + p);
+            count++;
         }
+
     }
+
 
 
 </script>
