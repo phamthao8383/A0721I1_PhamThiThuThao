@@ -1,17 +1,21 @@
+<!--Bài 5: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lại con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Bai 5</title>
 </head>
 <body>
 <script>
-let a=parseInt(prompt("Số tiền vay: "));
-let l;
-for(let n=1;n<=12;n++){
-l =a*0.03*n;
-document.write("lãi suất sau "+n+" tháng = "+l+" đồng"+"<br>");
-}
+  let monney = parseInt(prompt("Ban hay nhap so tien ban dau la: "));
+  let latXuat = 0.03;
+  let month = parseInt(prompt("Ban hay nhap so thang : "));
+  let result ;
+  let i;
+  for(i=1;i<=month;i++){
+    result= monney+monney*latXuat;
+  }
+  document.write("So tien nhan duoc la " +result);
 </script>
 </body>
 </html>

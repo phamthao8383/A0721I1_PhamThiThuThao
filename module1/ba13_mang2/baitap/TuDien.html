@@ -11,25 +11,26 @@
 <br><br>
 <p id="tieng_viet"/>
 <script>
+    let count = 0;
     let tieng_anh = document.getElementById("tieng_anh");
 
-    let mangTA = ["how", "old", "are", "you", "i", "am", "fine", "thanks"]
-    let mangTV = ["làm sao", "cũ, cổ xưa", "là", "bạn", "tôi", "là", "khỏe", "cảm ơn"]
+    let mangTA = ["how", "cat", "are", "you", "i", "dog", "fine", "thanks"]
+    let mangTV = ["làm sao", "con mèo ", "là", "bạn", "tôi", "con chó", "khỏe", "cảm ơn"]
     document.write("Chỉ có thể dịch được các từ [" + mangTA.join(" ") + "]")
 
     function dich() {
         for (let i = 0; i < mangTA.length; i++) {
-            if (mangTA[i] == tieng_anh.value) {
-
+            if (mangTA[i] === tieng_anh.value) {
+                count = 0;
                 document.getElementById("tieng_viet").innerHTML = mangTV[i];
                 break;
             } else {
-                alert("loi");
+                count++
             }
-
         }
-
-
+        if (count != 0) {
+            alert("loi");
+        }
     }
 
 </script>

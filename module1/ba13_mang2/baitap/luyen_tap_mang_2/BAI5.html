@@ -6,37 +6,47 @@
 </head>
 <body>
 <script>
-    let boo = false;
-    mangA = [];
-    mangB = [];
-    for (let i = 0; i < 5; i++) {
-        mangA[i] = prompt("nhap mảng a");
-        mangB[i] = prompt("nhập mảng b");
-    }
-    ktr();
 
-    function ktr() {
-        boo=false;
-        for (let i = 0; i < 5; i++) {
-            if (mangA === mangB) {
-                boo = true;
-            }
-            }
+   ktra();
+   function ktra() {
+       let chuoi1, chuoi2;
+       let boo = false;
 
-            if (boo = true) {
-                document.write("2 mảng giống nhau" + "<br>");
-                document.write("MangA = [" + mangA + "]<br>");
-                document.write("MangB = [" + mangB + "]<br>");
+       chuoi1 = prompt("nhap chuoi1");
+       chuoi2 = prompt("nhap chuoi2");
+       if (chuoi1.length != chuoi2.length) {
+           document.write("2 chuoi khac nhau" + "<br>");
+           document.write("chuoi1=[" + chuoi1 + "]" + "<br>");
+           document.write("chuoi2=[" + chuoi2 + "]" + "<br>");
 
-            } else {
-                document.write("2 mảng khác nhau" + "<br>");
-                document.write("MangA = [" + mangA + "]<br>");
-                document.write("MangB = [" + mangB + "]<br>");
-            }
+       } else
+       {
+
+           for (let i = 0; i < chuoi1.length; i++) {
+
+               for (let j = 0; j < chuoi2.length; j++) {
+                   if (chuoi1[i] === chuoi2[j]) {
+                       boo = true;
+                       break;
+                   }
+               }
+           }
 
 
+           if (boo == true) {
+               document.write("2 chuoi giongnhau" + "<br>");
+               document.write("chuoi1=[" + chuoi1 + "]" + "<br>");
+               document.write("chuoi2=[" + chuoi2 + "]" + "<br>");
+           } else {
+               document.write("2 chuoi khac nhau" + "<br>");
+               document.write("chuoi1=[" + chuoi1 + "]" + "<br>");
+               document.write("chuoi2=[" + chuoi2 + "]" + "<br>");
+           }
+       }
+   }
 
-    }
+
+
 
 
 </script>

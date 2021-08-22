@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tu Dien</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: orange;
+        }
+    </style>
 </head>
 <body>
+<h1> Tu Dien </h1>
+<input type="text" name="input_text" id="input_text">
+<button type="button" name="btn" onclick="change_E()"> Result!</button>
 <script>
-    let mang = [], boo = true, vitri =[],dem = 0
-    let mangnew = []
-
-    for (let i = 0; i < 10; i++) {
-        mang[i] = prompt("Nhập số vào mảng")
-        if(mang[i] == "V"){
-            boo =false
+    function change_E() {
+        let input_text = document.getElementById("input_text").value;
+        let count;
+        let TiengViet = ["mot", "hai", "ba", "bon", "nam", "sau", "bay", "tam", "chin", "khong"];
+        let English = ["one", "two", "three", "four", "five", "six", "seven", "eight", "night", "zero"];
+        for (count = 0; count < English.length; count++) {
+            if (input_text === English[count]) {
+                document.write("Tu ban nhap sau khi dich la " + TiengViet[count])
+            }
         }
-
-        if (mang[i] != "V"){
-            mangnew.push(mang[i])
-        }
-    }
-    document.write("Mang = ["+mang+"]<br>")
-    if(boo == false){
-        document.write("Đã xóa phần tử V. Mang = ["+mangnew+"]<br>")
     }
 </script>
 </body>
