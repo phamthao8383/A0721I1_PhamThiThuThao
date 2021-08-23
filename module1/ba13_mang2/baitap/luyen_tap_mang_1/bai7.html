@@ -5,23 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<div id="result"></div>
 <script>
-
+    let index;
     let boo =false;
     let v=parseInt(prompt());
     let arr=[8,4,6,23,9,66,36,81,67,34];
-    let str=arr.toString();
-    for(let i=0;i<=10;i++){
+
+    for(let i=0;i<arr.length;i++){
         if(arr[i]===v){
             boo =true;
+            index=i;
+            break;
         }
     }
     if(boo == true){
-        for (let i=0;i<=10;i++){
-            str
+        for (let i=index;i<arr.length-1;i++){
+             arr[i]=arr[i+1];
         }
-
+        arr[arr.length-1]=0;
         document.write("Mang = ["+arr+"]<br>");
     }
 </script>

@@ -6,9 +6,13 @@
 </head>
 <body>
 <script>
-  let array=["h","e","l","l","o","1","2","3"];
-  array.reverse();
-  document.write(array);
+
+  let array=[];
+  for(let i=0;i<5;i++){
+      array[i]=prompt("nhap ky tu");
+      array.reverse();
+  }
+  document.write(" mang ="+"["+array+"]");
 </script>
 </body>
 </html>

@@ -6,28 +6,27 @@
 </head>
 <body>
 <script>
-    let chuoi1 = prompt("Nhập chuỗi 1")
-    let chuoi2 = prompt("Nhập chuỗi 2")
-    let sosanh = true
-    document.write("Chuỗi 1 : "+chuoi1+" <br>"+ "Chuỗi 2 : "+chuoi2+" <br>")
-    if (chuoi1.length != chuoi2.length) {
-        document.write("2 chuỗi không giống nhau<br>")
-    }else{
-        for (let i=0; i<chuoi1.length ; i++){
-            for (let j=0; j<chuoi2.length ; j++){
-                if (chuoi1[i] == chuoi2[j]){
-                    sosanh = true
-                }else{
-                    sosanh = false
-                }
-            }
-        }
-        if (sosanh == false){
-            document.write("2 chuỗi không giống nhau<br>")
-        }else{
-            document.write("2 chuỗi giống nhau<br>")
-        }
+  let num =[1,3,5,2,12,25,11,5,8,7];
+  let n =Number(prompt('Nhập số')); //5
+  let mangNew=[]
+  flag = false
+  for (let i=0;i<num.length;i++) {
+    if (num[i]==n) {
+      flag=true;
     }
+    else {
+      mangNew.push(num[i]);
+    }
+  }
+  document.write('Mảng số đã cho là ' +num+'<br/>')
+  if (flag==true) {
+    document.write(n+' is in the array <br/>')
+
+  }
+  else {
+    alert(n+' is not in the array')
+  }
+  document.write(" Mang New =["+mangNew+"]")
 
 
 </script>
