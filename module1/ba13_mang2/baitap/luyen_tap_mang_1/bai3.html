@@ -9,16 +9,18 @@
     let arr = [1, 4, 77, 9, 15, -45, 3, 6, 95, -4];
     let max = arr[0];
     let index;
-    let tb=0;
+    let tb1;
+    let sum=0;
     for (let i = 0; i < arr.length; i++) {
-        tb+=arr[i]/arr.length;
+        sum+=arr[i];
+        tb1=sum/arr.length;
         if (arr[i] > max) {
             index = arr[i];
         }
 
     }
 
-    document.write(index + " là giá trị lớn nhất " + "<br>"+"Trung bình các phần tử trong mảng ="+tb);
+    document.write(index + " là giá trị lớn nhất " + "<br>"+"Trung bình các phần tử trong mảng ="+tb1);
 
 
 </script>

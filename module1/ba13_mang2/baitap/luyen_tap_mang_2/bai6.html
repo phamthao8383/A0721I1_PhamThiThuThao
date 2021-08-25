@@ -6,7 +6,16 @@
 </head>
 <body>
 <script>
-    
+    var english = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+    var vietnamese = ['số 1', 'số 2', 'số 3', 'số 4', 'số 5', 'số 6', 'số 7', 'số 8', 'số 9', 'số 10'];
+    var str = prompt('enter a word in english');
+    for(var i = 0; i< english.length; i++){
+        if(english[i] === str){
+            alert(vietnamese[i])
+        }else if(vietnamese[i] === str){
+            alert(english[i]);
+        }
+    }
 </script>
 </body>
 </html>
