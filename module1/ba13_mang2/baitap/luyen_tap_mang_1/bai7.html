@@ -6,29 +6,26 @@
 </head>
 <body>
 <script>
-    let index;
-    let boo =false;
     let arr=[];
     let n=parseInt(prompt("nhập số luong phần tử"));
     for(let i=0;i<n;i++){
         arr[i]=parseInt(prompt("nhập phân tu "));
     }
     let v=parseInt(prompt("nhập phần tử v"));
+    document.write("Mangbd = [" + arr + "]<br>");
 
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]===v){
-            index=i;
-            boo =true;
-            break;
+    for(let i=0;i<arr.length;i++) {
+        if (arr[i] === v) {
+            for (let j = i; j < arr.length - 1; j++) {
+                arr[j] = arr[j + 1];
+            }
+            arr[arr.length - 1] = 0;
+         //   document.write("Mang = [" + arr + "]<br>");
+            i--;
         }
     }
-    if(boo == true){
-        for (let i=index;i<arr.length-1;i++){
-             arr[i]=arr[i+1];
-        }
-        arr[arr.length-1]=0;
-        document.write("Mang = ["+arr+"]<br>");
-    }
+    document.write("Mang = [" + arr + "]<br>");
+
 
 </script>
 

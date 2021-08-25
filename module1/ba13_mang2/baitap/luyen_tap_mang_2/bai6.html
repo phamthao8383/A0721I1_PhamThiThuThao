@@ -5,17 +5,32 @@
     <title>Title</title>
 </head>
 <body>
+<p id="result"></p>
+
 <script>
-    var english = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-    var vietnamese = ['số 1', 'số 2', 'số 3', 'số 4', 'số 5', 'số 6', 'số 7', 'số 8', 'số 9', 'số 10'];
-    var str = prompt('enter a word in english');
-    for(var i = 0; i< english.length; i++){
-        if(english[i] === str){
-            alert(vietnamese[i])
-        }else if(vietnamese[i] === str){
-            alert(english[i]);
-        }
+// let arr=[];
+// for(let i=0;i<5;i++){
+//     arr[i]=prompt("nhap phan tu");
+//     if(arr[i]=="-"){
+//         arr[i]="_";
+//     }
+// }
+// document.write("arrnew = ["+arr+"]");
+let text1= " ";
+let text = " ";
+let array = [];
+let count;
+for(count=0;count<10;count++){
+    array[count] = prompt("Ban hay nhap phan tu thu " +count +" cua mang");
+    text = text + array[count] + "&nbsp;";
+}
+for (count=0;count<10;count++){
+    if(array[count] == "-"){
+        array[count] = "_";
     }
+    text1 = text1 +array[count] +"&nbsp;";
+}
+document.getElementById("result").innerHTML = "Mang ban dau la " +text +" <br> Mang sau khi sua la " +text1;
 </script>
 </body>
 </html>
