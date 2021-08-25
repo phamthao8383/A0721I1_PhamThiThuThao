@@ -8,29 +8,21 @@
 <p id="result"></p>
 
 <script>
-// let arr=[];
-// for(let i=0;i<5;i++){
-//     arr[i]=prompt("nhap phan tu");
-//     if(arr[i]=="-"){
-//         arr[i]="_";
-//     }
-// }
-// document.write("arrnew = ["+arr+"]");
-let text1= " ";
-let text = " ";
-let array = [];
-let count;
-for(count=0;count<10;count++){
-    array[count] = prompt("Ban hay nhap phan tu thu " +count +" cua mang");
-    text = text + array[count] + "&nbsp;";
-}
-for (count=0;count<10;count++){
-    if(array[count] == "-"){
-        array[count] = "_";
+ let mang = new Array(prompt("Nhập vào một chuỗi"))
+let arr = []
+
+for (let i=0; i<mang.length ; i++){
+    for (let j=0; j<mang[i].length; j++){
+        if(mang[i][j] == "-"){
+            mang[i][j] = "_"
+            arr.push("_")
+        }else{
+            arr.push(mang[i][j])
+        }
+
     }
-    text1 = text1 +array[count] +"&nbsp;";
 }
-document.getElementById("result").innerHTML = "Mang ban dau la " +text +" <br> Mang sau khi sua la " +text1;
+document.write("arrnew = ["+arr.join("")+"]<br>")
 </script>
 </body>
 </html>
