@@ -8,21 +8,23 @@
 <p id="result"></p>
 
 <script>
- let mang = new Array(prompt("Nhập vào một chuỗi"))
-let arr = []
-
-for (let i=0; i<mang.length ; i++){
-    for (let j=0; j<mang[i].length; j++){
-        if(mang[i][j] == "-"){
-            mang[i][j] = "_"
-            arr.push("_")
-        }else{
-            arr.push(mang[i][j])
-        }
-
-    }
-}
-document.write("arrnew = ["+arr.join("")+"]<br>")
+//  let mang = new Array(prompt("Nhập vào một chuỗi"))
+// let arr = []
+//
+// for (let i=0; i<mang.length ; i++){
+//     for (let j=0; j<mang[i].length; j++){
+//         if(mang[i][j] == "-"){
+//             mang[i][j] = "_"
+//             arr.push("_")
+//         }else{
+//             arr.push(mang[i][j])
+//         }
+//
+//     }
+// }
+// document.write("arrnew = ["+arr.join("")+"]<br>")
+let str = prompt();
+document.write(str.replace(/-/g,'_'));
 </script>
 </body>
 </html>
