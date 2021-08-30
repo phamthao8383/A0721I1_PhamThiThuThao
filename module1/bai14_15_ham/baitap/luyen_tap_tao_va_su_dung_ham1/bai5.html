@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function ngoiSao(sao) {
+        let sao1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"]
+        let sao2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]
+        for (let i=0; i<sao1.length ; i++){
+            if(sao == sao1[i]){
+                return sao2[i]
+            }
+        }
+        return ""
+    }
+
+    function kq() {
+        let timsao = prompt("Nhập tên ngôi sao")
+        let sao = ngoiSao(timsao)
+        if(sao == ""){
+            document.write("Không có tên ngôi sao nào")
+        }else {
+            document.write("Tên ngôi sao tương ứng của "+timsao+" là "+sao)
+        }
+    }
+    kq();
+</script>
+</body>
+</html>

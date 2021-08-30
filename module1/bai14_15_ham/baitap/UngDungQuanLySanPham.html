@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ưng dụng quản lý sản phẩm</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th> Add New Product</th>
+    </tr>
+  <tr>
+      <td> <input type="text" id="input1"></td>
+      <td><button id="btnAdd" onclick="showAdd()"> Add  </button> </td>
+  </tr>
+
+</table>
+
+
+<div id="out"></div>
+
+
+
+<script>
+    let x=0;
+    let input1=[];
+    let a;
+
+    function showAdd(){
+         a="     "+"<button id='edit' onclick='edit()'> Edit</button>"+" "+"<button onclick='xoa()'> Delete</button>";
+            input1[x] = document.getElementById("input1").value;
+            x++;
+            let e ="<tr>";
+            for(let i=0;i<input1.length;i++){
+                e += input1[i]+a+"<br><br>";
+            }
+            e+="</tr>";
+            document.getElementById('out').innerHTML= e;
+
+    }
+    function edit(){
+        let editProduct = document.getElementById('edit');
+        editProduct.value=input1[i];
+    }
+    function xoa(){
+        input1[x] = document.getElementById("input1").value;
+        x++;
+        for(let i=0;i<input1.length;i++) {
+
+            input1.slice(i, 1);
+
+        }
+    }
+
+
+</script>
+</body>
+</html>

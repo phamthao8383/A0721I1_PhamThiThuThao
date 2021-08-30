@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.-->
+<script>
+    function check(n){
+        if(n %2 ==0|| n%2 ==1){
+            return true;
+        }
+        return false;
+
+    }
+    n=prompt("nhap ky tu");
+    let index=check(n);
+    if(index){
+        alert(n +" là ký tự số");
+    }else {
+        alert(n+" là ký tự chuỗi");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("nhap số phần tử trong mảng arr:"));
+    let arr = [];
+    for (let i = 0; i < num; i++) {
+        arr[i] = parseInt(prompt("nhap"));
+    }
+    document.write("arr=[" + arr + "]<br>");
+    function kq(arr) {
+        let min = arr[0];
+        if (arr.length == 0) {
+            return -1;
+        }
+        for (let i = 0; i < num; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+    let min = kq(arr);
+    document.write("arrmin= [" + min + "]");
+</script>
+</body>
+</html>

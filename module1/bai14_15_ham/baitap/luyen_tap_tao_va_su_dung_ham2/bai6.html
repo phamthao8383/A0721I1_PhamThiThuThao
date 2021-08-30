@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm nhận vào một số, kiểm tra xem nếu số đưa vào có phải là nguyên dương không. Nếu là nguyên dương trả về true, ngược lại trả về false.-->
+
+<script>
+    kq();
+
+    function kq() {
+        let n = prompt("Nhập vào so nguyên");
+        let check = ktr(n);
+        if (check == true) {
+            alert(n + " Đây là ký tự số nguyên duong");
+        } else {
+            alert(n + " Không phải ký tự nguyên âm");
+        }
+    }
+
+    function ktr(n) {
+        if (n > 0) {
+            return true;
+        }
+        return false;
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+<script>
+    function dienTich(r){
+        const pi=3.14;
+        let s=r*r*pi;
+        return s;
+    }
+    function chuVi(r){
+        const pi=3.14;
+        let c=2*r*pi;
+        return c;
+    }
+    r=parseInt(prompt("nhap bán kinh hình tròn"));
+    s=dienTich(r);
+    c=chuVi(r);
+    document.write("dien tich hình tròn có bán kinh "+r+"="+s+"<br>");
+    document.write("chu vi hình tròn có bán kình "+r+"="+c);
+
+</script>
+</body>
+</html>

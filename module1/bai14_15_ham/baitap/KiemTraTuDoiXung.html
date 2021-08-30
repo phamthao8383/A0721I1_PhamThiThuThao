@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    ketQua();
+    function ketQua(){
+        let s=[];
+        for(let i=0;i<4;i++){
+            s[i]=prompt(" nhap mang");
+        }
+        let index=isPalindrome(s);
+        document.write(index);
+    }
+    function isPalindrome(s){
+
+        for(let i=0;i<4/2;i++){
+            if(s[i]!=s[4-1-i]){
+                return false;
+            }
+            return true;
+        }
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
