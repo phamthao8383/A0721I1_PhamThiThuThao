@@ -6,48 +6,50 @@
 </head>
 <body>
 <script>
-    let MyDate = function(day, month, year) {
+    class MyDate {
+        constructor(day,month,year) {
 
-        this.day = day;
+            this.day = day;
 
-        this.month = month;
+            this.month = month;
 
-        this.year = year;
+            this.year = year;
+        }
 
-        this.getDay = function() {
+        getDay () {
             return this.day;
         }
-        this.getMonth = function() {
+        getMonth () {
             return this.month;
         }
-        this.getYear = function() {
+        getYear () {
             return this.year;
         }
-        this.getDate=function (){
-            alert(this.day+"/"+this.month+"/"+this.year)
+        getDate (){
+            return (this.day+"/"+this.month+"/"+this.year);
 
         }
 
-        this.setDay = function(day) {
+        setDay (day) {
             this.day  = day;
         }
-        this.setMonth = function(month) {
+        setMonth (month) {
             this.month  = month;
         }
-        this.setYear = function(year) {
+        setYear (year) {
             this.year  = year;
         }
-        this.setDate =function (day,month,year){
+        setDate (day,month,year){
             this.day=day;
             this.month = month;
             this.year = year;
 
         }
-        this.toString=function (){
+        toString(){
             return this.day+"/"+this.month+"/"+this.year;
         }
 
-    };
+    }
 
     let date = new MyDate(6,6,2021);
     alert(date.toString());

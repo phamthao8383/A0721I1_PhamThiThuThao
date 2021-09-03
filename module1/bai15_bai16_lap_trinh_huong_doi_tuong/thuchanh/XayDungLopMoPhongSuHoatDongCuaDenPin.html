@@ -6,49 +6,53 @@
 </head>
 <body>
 <script>
-    let Battery = function () {
-
-        this.setEnergy = function (energy) {
+    class Battery {
+  constructor(energy) {
+      this.energy=energy;
+  }
+        setEnergy (energy) {
             this.energy = energy;
-        };
+        }
 
-        this.getEnergy = function () {
+        getEnergy () {
             return this.energy;
-        };
+        }
 
-        this.decreaseEnergy = function () {
+        decreaseEnergy () {
             if (this.energy > 0) {
                 this.energy--;
             }
         }
     };
-    let FlashLamp = function () {
-
-        this.setBattery = function (battery) {
+    class FlashLamp{
+constructor(battery) {
+    this.battery=battery;
+}
+        setBattery (battery) {
             this.battery = battery;
-        };
+        }
 
-        this.getBatteryInfo = function () {
+        getBatteryInfo () {
             return this.battery.getEnergy();
-        };
+        }
 
-        this.light = function () {
+        light () {
             if(this.status){
                 alert("Lighting");
             } else {
                 alert("Not lighting");
             }
-        };
-        this.turnOn = function () {
+        }
+        turnOn () {
             this.status = true;
-        };
+        }
 
-        this.turnOff = function () {
+        turnOff() {
             this.status = false;
         }
-    };
+    }
     let battery = new Battery();
-    battery.setEnergy(10);
+    battery.setEnergy(20);
 
     let flashLamp = new FlashLamp();
     flashLamp.setBattery(battery);
