@@ -5,54 +5,80 @@
     <title>ưng dụng quản lý sản phẩm</title>
 </head>
 <body>
-<table>
-    <tr>
-        <th> Add New Product</th>
-    </tr>
-  <tr>
-      <td> <input type="text" id="input1"></td>
-      <td><button id="btnAdd" onclick="showAdd()"> Add  </button> </td>
-  </tr>
 
-</table>
-
-
+<h2> Add Product</h2>
+<input type="text" id="product" Add New Product>
+<button onclick="themMoi()"> Add</button><br>
+<span>Số lượng sản phẩm :</span> <span id="total"></span><br>
 <div id="out"></div>
 
-
-
 <script>
-    let x=0;
-    let input1=[];
-    let a;
-
-    function showAdd(){
-         a="     "+"<button id='edit' onclick='edit()'> Edit</button>"+" "+"<button onclick='xoa()'> Delete</button>";
-            input1[x] = document.getElementById("input1").value;
-            x++;
-            let e ="<tr>";
-            for(let i=0;i<input1.length;i++){
-                e += input1[i]+a+"<br><br>";
-            }
-            e+="</tr>";
-            document.getElementById('out').innerHTML= e;
-
-    }
-    function edit(){
-        let editProduct = document.getElementById('edit');
-        editProduct.value=input1[i];
-    }
-    function xoa(){
-        input1[x] = document.getElementById("input1").value;
-        x++;
-        for(let i=0;i<input1.length;i++) {
-
-            input1.slice(i, 1);
-
+    let arrP = ["Sam sung", " Nokia", " Iphone 13", " Oppo F11", " Xiaomi", " Vivo", "Vsmart"];
+    display();
+    function themMoi() {
+        let newproduct = document.getElementById('product').value;
+        if (newproduct == "") {
+            alert("nhập lại tên sản phẩm");
+        } else {
+            arrP.push(newproduct);
+            document.getElementById('product').value = "";
         }
+        display();
     }
+    display();
+    function display() {
+        let string = '<table border="1" style="border-collapse: collapse;\n' +
+            '    margin: 25px 0;\n' +
+            '    font-size: 0.9em;\n' +
+            '    font-family: sans-serif;\n' +
+            '    min-width: 400px;\n' +
+            '    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);">\n' +
+            '    <tr style="background-color: #009879;\n' +
+            '    color: #ffffff;\n' +
+            '    text-align: left;">\n' +
+            '        <th> STT</th>\n' +
+            '        <th> Product</th>\n' +
+            '        <th> Edit</th>\n' +
+            '        <th> Delete</th>\n' +
+            '    </tr>';
 
 
+        for (let i = 0; i < arrP.length; i++) {
+            string += ' <tr style="background-color: #009879;\n' +
+                '    color: #ffffff;\n' +
+                '    text-align: left;">\n' +
+                '        <td >' + (i + 1) + '</td>\n' +
+                '        <td>' + arrP[i] + '</td>\n' +
+                '        <td> <button onclick="chinhSua(' + i + ')" style="background-color: #e7e7e7; color: black;"> Edit</button></td>\n' +
+                '        <td> <button onclick="xoa(' + i + ')" style="background:skyblue"> Delete</button></td>\n' +
+                '    </tr>';
+        }
+        string += '</table>';
+        document.getElementById('out').innerHTML = string;
+        document.getElementById('total').innerHTML = arrP.length;
+
+    }
+    function chinhSua(id) {
+        let editP = prompt("chỉnh sửa sản phẩm");
+        if (editP == "") {
+            alert('nhập lại tên sản phẩm cần chỉnh sửa');
+        } else if (editP == null) {
+            alert('bạn không muốn sửa tên');
+        } else {
+            arrP[id] = editP;
+        }
+        display();
+    }
+    function xoa(id) {
+        let xoaP = confirm("Bạn có muốn xóa sản phẩm: " + arrP[id]);
+        if (xoaP) {
+            arrP.splice(id, 1);
+            alert("Bạn đã xóa thành công")
+        } else {
+            alert("Bạn không xóa sản phẩm")
+        }
+        display();
+    }
 </script>
 </body>
 </html>

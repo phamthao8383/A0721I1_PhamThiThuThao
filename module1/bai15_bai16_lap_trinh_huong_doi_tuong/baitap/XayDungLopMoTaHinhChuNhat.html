@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"/>
+
+<script>
+  class Rectangle  {
+      constructor(height,width) {
+
+          this.height = height;
+          this.width = width;
+          this.getArea = function () {
+              return height * width;
+          }
+          this.getPerimeter = function () {
+              return (height + width) * 2;
+          }
+      }
+
+  }
+
+      let rectanle = new Rectangle(100, 200);
+      let area = rectanle.getArea();
+      let perimeter = rectanle.getPerimeter();
+      alert("dien tich =" + area + " chu vi  =" + perimeter);
+
+  let canvas=document.getElementById('myCanvas');
+  function creatRectangle (){
+      let ctx = canvas.getContext('2d');
+      ctx.fillStyle='yellow';    // color of fill
+      ctx.fillRect(0, 0, 100, 200); // create rectangle
+
+  }
+  creatRectangle();
+
+
+</script>
+
+</body>
+</html>
