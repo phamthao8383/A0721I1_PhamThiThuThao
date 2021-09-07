@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Mobile {
+        constructor() {
+            this.pin = 100;
+            this.status = true;
+            // vùng nhớ soạn tin
+            this.memoryDraft ="";
+            // vung nhớ tin nhắn đã gửi
+            this.memorySent = [];
+            // vùng nhớ tin nhắn nhận
+            this.memoryImport = [];
+
+        }
+        checkStatus() {
+            if (this.status) {
+                console.log("on");
+            } else {
+                console.log("off");
+            }
+        }
+        turnOnOff() {
+            this.status = !this.status;
+        }
+        sacPin() {
+            this.pin = 100;
+        }
+
+        soanTin(string) {
+            this.memoryDraft=string;
+            this.pin--;
+
+        }
+        guiTin(mobile,message) {
+            this.soanTin(message)
+            mobile.nhanTinNhan(this.memoryDraft);
+            this.memorySent.push(this.memoryDraft);
+            this.memoryDraft = [];
+            this.pin--;
+        }
+        // nhận tin nhắn
+        nhanTinNhan(message) {
+            this.memoryImport.push(message);
+            this.pin--;
+        }
+
+        hienThiTinDen() {
+            for (let i=0; i<this.memoryImport.length; i++){
+                console.log(this.memoryImport[i]);
+            }
+            this.pin--;
+        }
+
+        hienThiTinDaGui() {
+            for (let string of this.memoryImport){
+                console.log(this.memorySent);
+            }
+
+        }
+
+    }
+
+    let nokia = new Mobile();
+    let iphone = new Mobile();
+    nokia.guiTin(iphone,"xin chào iphone");
+    nokia.guiTin(iphone,"khỏe không bạn");
+    iphone.hienThiTinDen();
+    iphone.guiTin(nokia,"xin chao nokia.Mình khỏe");
+    nokia.hienThiTinDen();
+</script>
+</body>
+</html>

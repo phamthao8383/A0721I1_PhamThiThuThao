@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple{
+        constructor(weight) {
+            this.weight = 10;
+        }
+        getWeight(){
+            return this.weight;
+        }
+        decresae(){
+            this.weight--;
+        }
+        isEmpty(){
+            if(this.weight>0){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+    }
+    class Human{
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+        setName(name){
+            this.name = name;
+        }
+        setGender(boolean){
+           this.gender=boolean;
+        }
+        setWeight(weight){
+            this.weight = weight;
+        }
+        getName(){
+            return this.name;
+        }
+        getWeight(){
+            return this.weight;
+        }
+        isMale(){
+            if(this.gender==true){
+                return "Nam";
+            }
+            else{
+                return "Nữ";
+            }
+        }
+        checkApple(Apple){
+            if(Apple.isEmpty()){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        eatApple(Apple){
+           if(this.checkApple(Apple)){
+               this.weight++;
+               Apple.decresae();
+               console.log(this.getName()+" đã ăn 1 miếng tao");
+           }
+        }
+        say(string){
+           console.log(this.getName()+" said "+string);
+        }
+    }
+    let quaTao=new Apple();
+    let adam= new Human("Adam",true,60);
+    let eva=new Human("Eva",false,50);
+    adam.say(" mời em ăn táo ");
+    eva.say(" ok để em ăn");
+    eva.eatApple(quaTao);
+    eva.say(" mời anh ăn táo");
+    adam.say(" ok anh ăn đây");
+    adam.eatApple(quaTao);
+    console.log(adam.getWeight());
+    console.log(eva.getWeight());
+    console.log(quaTao.getWeight()+" kg");
+    console.log(adam.getName()+" thuộc giới tính "+adam.isMale());
+
+</script>
+</body>
+</html>
