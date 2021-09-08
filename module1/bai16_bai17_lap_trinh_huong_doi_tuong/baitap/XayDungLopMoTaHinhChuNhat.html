@@ -5,40 +5,49 @@
     <title>Title</title>
 </head>
 <body>
-<canvas id="myCanvas" width="500px" height="500px" style="border:1px solid #d3d3d3;"/>
-
+<canvas id="myCanvas" width="1500" height="900" style="border: 1px solid #d3d3d3;"></canvas>
 <script>
-  class Rectangle  {
-      constructor(height,width) {
+    class Rectange{
+        constructor(length, width) {
+            this.length = length;
+            this.width = width;
+        }
+        getLength () {
+            return this.length;
+        }
 
-          this.height = height;
-          this.width = width;
-          this.getArea = function () {
-              return height * width;
-          }
-          this.getPerimeter = function () {
-              return (height + width) * 2;
-          }
-      }
+        setLength (length) {
+            this.length = length;
+        }
 
-  }
+        getWidth () {
+            return this.width;
+        }
 
-      let rectanle = new Rectangle(100, 200);
-      let area = rectanle.getArea();
-      let perimeter = rectanle.getPerimeter();
-      alert("dien tich =" + area + " chu vi  =" + perimeter);
+        setWidth (width) {
+            this.width = width;
+        }
 
-  let canvas=document.getElementById('myCanvas');
-  function creatRectangle (){
-      let ctx = canvas.getContext('2d');
-      ctx.fillStyle='yellow';    // color of fill
-      ctx.fillRect(100, 50, 200, 100); // create rectangle
+        getCreage () {
+            return this.length * this.width;
+        }
 
-  }
-  creatRectangle();
+        getPerimeter () {
+            return (this.length + this.width)*2;
+        }
+
+        drawRectange () {
+            let ctx = document.getElementById('myCanvas').getContext("2d");
+            ctx.beginPath();
+            ctx.fillRect(100,100,this.length, this.width);
+        }
+    }
+
+    let rectange_1 = new Rectange(200,100);
+    rectange_1.drawRectange();
+    document.write(rectange_1.getLength()+"<br>"+rectange_1.getWidth()+"<br>" + rectange_1.getCreage()+ "<br>" +rectange_1.getPerimeter())
 
 
 </script>
-
 </body>
 </html>
