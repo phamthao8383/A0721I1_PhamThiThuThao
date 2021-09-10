@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let height=parseInt(prompt("nhap height"));
+    let width = parseInt(prompt("nhap weight"));
+    for(let i=1;i<=height;i++){
+        for( let j=1;j<=width;j++) {
+            if (i == 1 || i == height || j == 1 || j == width)
+                document.writeln("*");
+
+            else {
+                document.writeln("&nbsp&nbsp");
+                document.writeln("");
+            }
+        }
+
+        document.write("<br>");
+
+    }
+
+</script>
+</body>
+</html>

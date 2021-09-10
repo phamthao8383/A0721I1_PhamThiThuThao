@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nummerators =[5,2,5];
+    let denominators = [6,3,4];
+    let max=nummerators[0]/denominators[0];
+    for( let i=0;i<nummerators.length;i++){
+       for( let j=0;j<denominators.length;j++ ){
+             if(nummerators[i]/denominators[j]>max){
+               max=nummerators[i]/denominators[j];
+             }
+       }
+    }
+    document.write(nummerators[i]+"/"+denominators[j]+"là phân số lớn nhất, có chỉ số là "+max);
+
+</script>
+</body>
+</html>

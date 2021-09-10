@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let result = " ";
+    for (let i = 1; i <= 5; i++) {
+        if (i == 1) {
+            result = result + "*" + "<br>";
+        } else if (i == 5) {
+            for (let j = 1; j <= 5; j++) {
+                result = result + "*";
+            }
+        } else {
+            result = result + "*";
+            for (let j = 2; j <= 4; j++) {
+                if (i == j) {
+                    result = result + "*";
+                } else {
+                    result = result + "&nbsp;&nbsp";
+                }
+            }
+            result = result + "<br>";
+        }
+    }
+    document.writeln(result);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrA=[7,2,5,3,5,3];
+    let arrB =[7,2,5,4,6,3,5,3];
+    for(let i=0;i<arrA.length;i++){
+        for(let j=0;j<arrB.length;j++){
+            if(arrA[i]==arrB[j]){
+                arrB.splice(j,1);
+                arrB.sort();
+            }
+        }
+    }
+   document.write(" Kết quả missingValue(A, B) = ["+arrB+"]");
+
+
+</script>
+
+</body>
+</html>

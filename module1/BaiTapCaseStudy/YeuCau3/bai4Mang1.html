@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<input type="text" id="nhapSo" oninput="display()">
+<p id="result"> </p>
+<body>
+<script>
+    function display() {
+        let input = document.getElementById('nhapSo');
+        let arrSo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let arrChu = ["một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín", "mười"];
+        for (let i = 0; i < arrSo.length; i++) {
+            if (arrSo[i] == input.value) {
+                document.getElementById('result').innerHTML = arrChu[i];
+                break;
+            }
+        }
+    }
+    document.write("hiện chữ từ 1 -->10 ");
+
+</script>
+</body>
+</html>

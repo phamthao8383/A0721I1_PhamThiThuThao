@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<h2 style="text-align: center ; color: darkorange;
+"> Chào Mừng Bạn Đã Đến Với Cửa Hàng Của Chúng Tôi !</h2>
+<h3 style="text-align: center; color: chocolate"> Mời bạn chọn thức uống</h3>
+<p id="out"></p>
+<!--<table border="1">-->
+<!--    <tr>-->
+<!--        <th> Thứ Tự</th>-->
+<!--        <th> Thức Uống</th>-->
+<!--        <th> Giá</th>-->
+<!--        <th> Chọn</th>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td></td>-->
+<!--        <td></td>-->
+<!--        <td></td>-->
+<!--        <td><button onclick="chon()">Chọn</button></td>-->
+<!--    </tr>-->
+<!--</table>-->
+<script>
+
+    let arrProduct=["Cafe","Cam vắt","Nước ép cà rốt","Nước ép cà chua","Nước lọc","Nước dừa"]
+function display() {
+    let string='<table border="1" style="width: 600px;\n' +
+        '    margin: 0 auto;border-collapse: collapse ; b">\n' +
+        '    <tr style="background-color: seagreen' +
+        '' +
+        '">\n' +
+        '        <th> Thứ Tự</th>\n' +
+        '        <th> Thức Uống</th>\n' +
+        '        <th> Giá</th>\n' +
+        '        <th> Chọn</th>\n' +
+        '    </tr>';
+    for(let i=0;i<arrProduct.length;i++){
+        string+='<tr style="text-align: center">\n' +
+            '        <td>'+(i+1)+'</td>\n' +
+            '        <td>'+arrProduct[i]+'</td>\n' +
+            '        <td>'+((i+1)*10000)+'</td>\n' +
+            '        <td><button style="width: 100%" onclick="chon('+i+') ">Chọn</button></td>\n' +
+            '    </tr>';
+    }
+    string+='</table>';
+    document.getElementById('out').innerHTML = string;
+}
+    display();
+    
+    function chon(id) {
+        let nhapSoL=prompt("nhập số lượng ");
+        if(nhapSoL==""){
+            alert("nhập lại số lượng");
+        }else {
+            alert("Tổng tiền thanh toán : " + nhapSoL + " ly " + arrProduct[id] + " = " + nhapSoL * (id + 1) * 10000);
+        }
+    }
+</script>
+3
+</body>
+</html>

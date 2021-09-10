@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sum=0;
+    let arr=[];
+     let m =parseInt(prompt("nhap a"));
+     let n =parseInt(prompt(" nhap b"));
+    for(let i=0;i<m;i++){
+        for(let j=0;j<n;j++){
+          arr[i]=[];
+            arr[i][j]=parseInt(prompt("Ban hay nhap phan tu array[" +i +"][" +j +"]"));
+            console.log(arr[i][j]);
+            if(arr[i][j]%2==0){
+                sum+=arr[i][j];
+            }
+        }
+    }
+    document.write(" tổng các phần tử chẳn trong ma trận "+sum)
+</script>
+</body>
+</html>
+

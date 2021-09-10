@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count=0;
+    let arr=[];
+    for(let i=0;i<5;i++){
+        for(let j=0;j<5;j++){
+            arr[i]=[];
+            arr[i][j]=parseInt(prompt("nhập số phần tử arr ["+i+"]"+"["+j+"]"));
+           // console.log(arr[i][j]);
+            if(isPrime(arr[i][j])){
+              console.log(arr[i][j]) ;
+                count++;
+            }
+
+        }
+    }
+    alert("có "+count+" số nguyên tố");
+
+    function isPrime(number) {
+        let flag = true;
+        if (number == 2) {
+            flag = true;
+        } else if (number < 2) {
+            flag = false;
+        } else {
+            for (let i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        return flag;
+    }
+</script>
+
+</body>
+</html>

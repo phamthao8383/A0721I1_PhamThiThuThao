@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let luong = prompt("nhap luong nhan vien: ");
+    let sothue ;
+    let luongrong = 0;
+    if(luong==15){
+        sothue = luong*0.2;
+        thuesuat = 20;
+        document.writeln("thue thu thap là 20% ");
+    }
+    else if(7<=luong<15){
+        sothue = luong * 0.1;
+        thuesuat = 10;
+        document.writeln("thue thu thap la 10%");
+    }
+    else {
+        sothue = luong * 0.05;
+        thuesuat = 5;
+        document.writeln("thue thu thap la 5%");
+    }
+    luongrong = luong - sothue;
+    document.writeln("luong" +luongrong);
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrA = [1, 2, 3];
+    let arrB = [];
+    for (let i = 0; i < arrA.length; i++) {
+        arrB[i] = 0;
+        for (let j = 0; j < i + 1; j++) {
+            arrB[i] += arrA[j];
+        }
+    }
+    document.write("arrB= [" + arrB + "]");
+
+
+</script>
+
+</body>
+</html>
