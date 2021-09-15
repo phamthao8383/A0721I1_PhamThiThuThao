@@ -1,25 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<input type="text" id="nhapSo" oninput="display()">
-<p id="result"> </p>
-<body>
-<script>
-    function display() {
-        let input = document.getElementById('nhapSo');
-        let arrSo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        let arrChu = ["một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín", "mười"];
-        for (let i = 0; i < arrSo.length; i++) {
-            if (arrSo[i] == input.value) {
-                document.getElementById('result').innerHTML = arrChu[i];
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        </head>
+        <body>
+        <script>
+        let so = prompt("nhập số: ");
+    let i = 0;
+    while (i<so.length){
+        switch(so[i]) {
+            case '0':
+                document.write("không");
                 break;
-            }
+            case '1':
+                document.write("một");
+                break;
+            case '2':
+                document.write("hai");
+                break;
+            case '3':
+                document.write("ba");
+                break;
+            case '4':
+                document.write("bốn");
+                break;
+            case '5':
+                document.write("năm");
+                break;
+            case '6':
+                document.write("sáu");
+                break;
+            case '7':
+                document.write("bảy");
+                break;
+            case '8':
+                document.write("tám");
+                break;
+            case '9':
+                document.write("chín");
+                break;
+
         }
+        i++;
     }
-    document.write("hiện chữ từ 1 -->10 ");
 
 </script>
 </body>

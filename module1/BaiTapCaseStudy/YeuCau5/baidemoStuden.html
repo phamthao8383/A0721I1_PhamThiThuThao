@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="Add" onclick="them()">
+<!--<table border="1">-->
+<!--    <tr>-->
+<!--    <th> STT</th>-->
+<!--    <th> ID</th>-->
+<!--    <th> NAME </th>-->
+<!--    <th> AGE</th>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td> 1</td>-->
+<!--        <td> sv01</td>-->
+<!--        <td> Nguyen lan</td>-->
+<!--        <td> 23 </td>-->
+<!--            <td><button onclick="edit()"> Edit</button></td>-->
+<!--            <td><button onclick="dele()"> Delete</button></td>-->
+
+<!--    </tr>-->
+<!--</table>-->
+<p id="out"></p>
+<script>
+    class Student{
+        constructor(id,name,age) {
+            this.id=id;
+            this.name=name;
+            this.age=age;
+        }
+        setId(id){
+            this.id=id;
+        }
+        getId(){
+            return this.id;
+        }
+        setName(name){
+            this.name=name;
+        }
+        getName(){
+            return this.name;
+        }
+        setAge(age){
+            this.age=age;
+        }
+        getAge(){
+            return this.age;
+        }
+        toString(){
+            return " id "+this.id+" name " +this.name +" age "+this.age;
+        }
+    }
+    let studen1= new Student("SV001","Nguyen A","21");
+    let studen2= new Student("SV002","Nguyen B","21");
+    let studen3= new Student("SV003","Nguyen C","21");
+    let studen4= new Student("SV0044","Nguyen D","21");
+
+
+    let arrStuden  =[studen1,studen2,studen3,studen4];
+    function display() {
+        let tableString='<table border="1">\n' +
+            '    <tr>\n' +
+            '    <th> STT</th>\n' +
+            '    <th> ID</th>\n' +
+            '    <th> NAME </th>\n' +
+            '    <th> AGE</th>\n' +
+            '    <th> EDIT</th>\n' +
+            '    <th> DELETE</th>\n' +
+            '    </tr>'
+        for(let i=0;i<arrStuden.length;i++){
+            tableString+='<tr>\n' +
+                '        <td> ' + (i+1)+'</td>\n' +
+                '        <td>' +arrStuden[i].getId()+ '</td>\n' +
+                '        <td> '+ arrStuden[i].getName()+'</td>\n' +
+                '        <td> '+ arrStuden[i].getAge()+' </td>\n' +
+                '        <td> <button onclick="edit()"> Edit</button> </td>\n' +
+                '        <td> <button onclick="dele('+i+')"> Delete</button> </td>\n' +
+
+
+                '    </tr>';
+        }
+        tableString+='</table>';
+        document.getElementById('out').innerHTML=tableString;
+
+    }
+    display();
+    function them() {
+        let id=prompt("nhap id");
+        let name=prompt("nhap ten");
+        let age = prompt("nhap age");
+        let newStuden = new Student(id,name,age);
+        arrStuden.push(newStuden);
+        display();
+    }
+    function dele(i) {
+        arrStuden.splice(i,1);
+        display();
+    }
+</script>
+</body>
+</html>

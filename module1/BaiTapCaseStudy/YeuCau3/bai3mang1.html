@@ -6,18 +6,20 @@
 </head>
 <body>
 <script>
-    let nummerators =[5,2,5];
-    let denominators = [6,3,4];
-    let max=nummerators[0]/denominators[0];
-    for( let i=0;i<nummerators.length;i++){
-       for( let j=0;j<denominators.length;j++ ){
-             if(nummerators[i]/denominators[j]>max){
-               max=nummerators[i]/denominators[j];
-             }
-       }
+    let a,b;
+    let arrA = [5, 2, 5];
+    let arrB = [6, 3, 4];
+    let max = arrA[0]/arrB[0];
+    let index =0;
+    for (let i = 1;i< arrA.length;i++){
+        if (arrA[i]/arrB[i] > max){
+            a=arrA[i];
+            b=arrB[i];
+            max = a[i]/b[i];
+            index =i;
+        }
     }
-    document.write(nummerators[i]+"/"+denominators[j]+"là phân số lớn nhất, có chỉ số là "+max);
-
+    document.writeln(a+" / "+b+" Chỉ số của phần tử lớn nhất là: "+index);
 </script>
 </body>
 </html>
