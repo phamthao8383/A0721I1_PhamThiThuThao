@@ -23,8 +23,12 @@
 //     }
 // }
 // document.write("arrnew = ["+arr.join("")+"]<br>")
-let str = prompt();
-document.write(str.replace(/-/g,'_'));
+let str = [];
+for(let i=0;i<3;i++) {
+    str[i]=prompt("nhập mang ");
+    document.write(str[i].replace(/-/g, '_'));
+}
+
 </script>
 </body>
 </html>

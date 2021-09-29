@@ -5,20 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-Nhập xâu kí tự <input type="text"id="nhap">
-<button onclick="xauKhac()">xau khac</button>
 <script>
-
-    let count = 0;
-    function xauKhac(){
-        let s = document.getElementById("nhap").value;
-        for( let i=0; i < s.length; i++) {
-            if (s.indexOf(s.charAt(i)) === i) {
-                count++;
-            }
-        }
-        document.write( "kết quả xâu khác(s) = "+count);
+    // let count = 0;
+    // function xauKhac(){
+    //     let s = document.getElementById("nhap").value;
+    //     for( let i=0; i < s.length; i++) {
+    //         if (s.indexOf(s.charAt(i)) === i) {
+    //             count++;
+    //         }
+    //     }
+    //     document.write( "kết quả xâu khác(s) = "+count);
+    // }
+    function diff(str) {
+        let arr = [];
+       for(let i=0;i<str.length;i++){
+           // kiểm tra ký tự đó có trong mảng không nếu không có rả về -1 và kiểm tra k có push vào mảng
+           if(arr.indexOf(str.charAt(i))=== -1){
+               arr.push(str.charAt(i));
+           }
+       }
+       return arr.length;
     }
+    let str = prompt("nhập vào xâu ký tự");
+    alert("có"+ diff(str)+" ký tự khác nhau")
+
+
 </script>
 </body>
 </html>

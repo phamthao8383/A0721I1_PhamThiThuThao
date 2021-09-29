@@ -6,17 +6,42 @@
 </head>
 <body>
 <script>
-    let arrA=[7,2,5,3,5,3];
-    let arrB =[7,2,5,4,6,3,5,3];
-    for(let i=0;i<arrA.length;i++){
-        for(let j=0;j<arrB.length;j++){
-            if(arrA[i]==arrB[j]){
-                arrB.splice(j,1);
-                arrB.sort();
-            }
-        }
+   //  let arrA=[7,2,5,3,5,3];
+   //  let arrB =[7,2,5,4,6,3,5,3];
+   //  for(let i=0;i<arrA.length;i++){
+   //      for(let j=0;j<arrB.length;j++){
+   //          if(arrA[i]==arrB[j]){
+   //              arrB.splice(j,1);
+   //              arrB.sort();
+   //          }
+   //      }
+   //  }
+   // document.write(" Kết quả missingValue(A, B) = ["+arrB+"]");
+let arrA=[];
+let arrB=[];
+let result=[];// chứa phần tử có trong b nhưng không có trong a
+let sizeA=parseInt(prompt(" nhập độ dài mảng a"));
+   let sizeB=parseInt(prompt(" nhập độ dài mảng b"))
+    for(let i=0;i<sizeA;i++){
+        arrA.push(parseInt(prompt("nhập số nguyên trong mảng a")));
     }
-   document.write(" Kết quả missingValue(A, B) = ["+arrB+"]");
+   for(let i=0;i<sizeB;i++){
+       arrB.push(parseInt(prompt("nhập số nguyên trong mảng b")));
+   }
+   for(let i=0;i<sizeB;i++){
+       //trả về -1 khi phần tử b[i]  không có trong a
+       if(arrA.indexOf(arrB[i])===-1&& result.indexOf(arrB[i])===-1){
+          result.push(arrB[i])
+       }
+       result.sort(function (a,b){
+           return a-b;
+       } );
+   }
+   document.write("mảng a"+arrA+"<br>");
+   document.write("mảng a"+arrB+"<br>")
+
+   document.write(" các số nguyên xuất hiên trong mảng B nhưng k xuất hiện trong mảng a"+resultr)
+
 
 
 </script>

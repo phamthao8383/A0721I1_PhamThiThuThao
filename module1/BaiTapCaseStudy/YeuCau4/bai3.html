@@ -6,17 +6,44 @@
 </head>
 <body>
 <script>
-    let s1 = "aabcc";
-    let s2 = "adcaa";
-    let count = 0;
-    for (let i=0;i<s1.length;i++) {
-        let j = s2.indexOf(s1[i]);
-        if (j >= 0) {
-            count++;
-            s2 = s2.replace(s1[i], '');
+    // let s1 = "aabcc";
+    // let s2 = "adcaa";
+    // let count = 0;
+    // for (let i=0;i<s1.length;i++) {
+    //     let j = s2.indexOf(s1[i]);
+    //     if (j >= 0) {
+    //         count++;
+    //         s2 = s2.replace(s1[i], '');
+    //     }
+    // }
+    // document.write("kết quả commonCharacterCount(s1, s2) = " +count);
+    function conmon(s1,s2) {
+        // chuyển sâu thành 2 mảng
+        let arr1=s1.split("");
+        let arr2 = s2.split("");
+        let count =0;
+        for(let i=0;i<arr1.length;i++){
+            for(let j =0 ;j<arr2.length;j++){
+                if(arr1[i]==arr2[j]){
+                   count++;
+                   arr1.splice(i,1);
+                   arr2.splice(j,1);
+                   i--;
+                   break;
+                }
+            }
         }
+        return count;
     }
-    document.write("kết quả commonCharacterCount(s1, s2) = " +count);
+    let s1=prompt("nhap sau 1");
+    let s2 =prompt("nhap sau 2");
+    alert(" số lương ky tu giong nhau 2 sau là"+conmon(s1,s2));
+
+
+
+
+
+
 </script>
 
 </body>

@@ -6,20 +6,41 @@
 </head>
 <body>
 <script>
-    let a,b;
-    let arrA = [5, 2, 5];
-    let arrB = [6, 3, 4];
-    let max = arrA[0]/arrB[0];
-    let index =0;
-    for (let i = 1;i< arrA.length;i++){
-        if (arrA[i]/arrB[i] > max){
-            a=arrA[i];
-            b=arrB[i];
-            max = a[i]/b[i];
-            index =i;
-        }
+    // let a,b;
+    // let arrA = [5, 2, 5];
+    // let arrB = [6, 3, 4];
+    // let max = arrA[0]/arrB[0];
+    // let index =0;
+    // for (let i = 1;i< arrA.length;i++){
+    //     if (arrA[i]/arrB[i] > max){
+    //         a=arrA[i];
+    //         b=arrB[i];
+    //         max = a[i]/b[i];
+    //         index =i;
+    //     }
+    // }
+    // document.writeln(a+" / "+b+" Chỉ số của phần tử lớn nhất là: "+index);
+
+    let tu=[];
+    let mau=[];
+  //  let result=[];// chứa phần tử có trong b nhưng không có trong a
+    let size=parseInt(prompt(" nhập độ dài mảng a"));
+    for(let i=0;i<size;i++){
+        tu.push(parseInt(prompt("nhập số nguyên trong mảng a")));
+        mau.push(parseInt(prompt("nhập số nguyên trong mảng a")));
     }
-    document.writeln(a+" / "+b+" Chỉ số của phần tử lớn nhất là: "+index);
+    function maxFraction(tu,mau) {
+        let maxINDEX=0;
+        for(let i=1;i<tu.length;i++){
+            if(tu[maxINDEX]*mau[i]<tu[i]*mau[maxINDEX]){
+                maxINDEX=i;
+            }
+        }
+        return maxINDEX;
+
+    }
+
+
 </script>
 </body>
 </html>

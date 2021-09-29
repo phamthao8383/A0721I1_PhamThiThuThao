@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body >
+<body>
 <h2 style="text-align: center ; color: darkorange;
 "> Chào Mừng Bạn Đã Đến Với Cửa Hàng Của Chúng Tôi !</h2>
 <h3 style="text-align: center; color: chocolate"> Mời bạn chọn thức uống</h3>
 <p id="out"></p>
+<p style="text-align: center ; color: darkorange;" id="index"> Gio Hàng</p>
 <!--<table border="1">-->
 <!--    <tr>-->
 <!--        <th> Thứ Tự</th>-->
@@ -25,40 +26,52 @@
 <!--</table>-->
 <script>
 
-    let arrProduct=["Cafe","Cam vắt","Nước ép cà rốt","Nước ép cà chua","Nước lọc","Nước dừa"]
-function display() {
-    let string='<table border="1" style="width: 600px;\n' +
-        '    margin: 0 auto;border-collapse: collapse ; b">\n' +
-        '    <tr style="background-color: seagreen' +
-        '' +
-        '">\n' +
-        '        <th> Thứ Tự</th>\n' +
-        '        <th> Thức Uống</th>\n' +
-        '        <th> Giá</th>\n' +
-        '        <th> Chọn</th>\n' +
-        '    </tr>';
-    for(let i=0;i<arrProduct.length;i++){
-        string+='<tr style="text-align: center">\n' +
-            '        <td>'+(i+1)+'</td>\n' +
-            '        <td>'+arrProduct[i]+'</td>\n' +
-            '        <td>'+((i+1)*10000)+'</td>\n' +
-            '        <td><button style="width: 100%" onclick="chon('+i+') ">Chọn</button></td>\n' +
+    let arrProduct = ["Cafe", "Cam vắt", "Nước ép cà rốt", "Nước ép cà chua", "Nước lọc", "Nước dừa"]
+
+    function display() {
+        let string = '<table border="1" style="width: 600px;\n' +
+            '    margin: 0 auto;border-collapse: collapse ; b">\n' +
+            '    <tr style="background-color: seagreen' +
+            '' +
+            '">\n' +
+            '        <th> Thứ Tự</th>\n' +
+            '        <th> Thức Uống</th>\n' +
+            '        <th> Giá</th>\n' +
+            '        <th> Chọn</th>\n' +
+            '        <th> Hủy</th>\n' +
             '    </tr>';
+        for (let i = 0; i < arrProduct.length; i++) {
+            string += '<tr style="text-align: center">\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + arrProduct[i] + '</td>\n' +
+                '        <td>' + ((i + 1) * 10000) + '</td>\n' +
+                '        <td><button style="width: 100%" onclick="chon(' + i + ') ">Chọn</button></td>\n' +
+                '        <td><button style="width: 100%" onclick="huy(' + i + ') ">Huy</button></td>\n' +
+                '    </tr>';
+        }
+        string += '</table>';
+        document.getElementById('out').innerHTML = string;
     }
-    string+='</table>';
-    document.getElementById('out').innerHTML = string;
-}
+
     display();
-    
+
     function chon(id) {
-        let nhapSoL=prompt("nhập số lượng ");
-        if(nhapSoL==""){
+        let nhapSoL = prompt("nhập số lượng ");
+        if (nhapSoL == "") {
             alert("nhập lại số lượng");
-        }else {
-            alert("Tổng tiền thanh toán : " + nhapSoL + " ly " + arrProduct[id] + " = " + nhapSoL * (id + 1) * 10000);
+        } else {
+            document.getElementById('index').innerHTML = "Tổng tiền thanh toán : " + nhapSoL + " ly " + arrProduct[id] + " = " + nhapSoL * (id + 1) * 10000;
         }
     }
+
+    function huy(id) {
+        let xoaP = confirm("Bạn có muốn xóa sản phẩm: " + arrProduct[id]);
+        if (xoaP) {
+            document.getElementById('index').innerHTML = " ";
+        }
+
+    }
 </script>
-3
+
 </body>
 </html>

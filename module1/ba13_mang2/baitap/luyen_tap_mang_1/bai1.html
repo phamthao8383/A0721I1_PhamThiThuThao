@@ -6,16 +6,18 @@
 </head>
 <body>
 <script>
-    let arr=[1,65,8,9,15,-45,2,6,10,-4];
-    let count=0;
-    let result=" ";
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]>=10){
-            count++;
-            result+= arr[i]+"  ";
-        }
-    }
-    document.write(" Có "+ count +" số "+result);
+  let salary = parseFloat(prompt("nhap tiền"));
+  let tax=0;
+  let netSalary = 0;//luong rong(nhan viên nhan dduoc)
+  if(salary>=15000000){
+      tax = 20;
+  }else if(tax>= 7000000){
+      tax = 10;
+  }else {
+      tax = 5;
+  }
+  netSalary = salary-salary*tax/100;
+  document.write(" Phần trăm "+tax+"<br>"+" thue "+netSalary);
 
 </script>
 </body>

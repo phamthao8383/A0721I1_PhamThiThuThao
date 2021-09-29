@@ -7,45 +7,54 @@
         </head>
         <body>
         <script>
-        let so = prompt("nhập số: ");
-    let i = 0;
-    while (i<so.length){
-        switch(so[i]) {
-            case '0':
-                document.write("không");
-                break;
-            case '1':
-                document.write("một");
-                break;
-            case '2':
-                document.write("hai");
-                break;
-            case '3':
-                document.write("ba");
-                break;
-            case '4':
-                document.write("bốn");
-                break;
-            case '5':
-                document.write("năm");
-                break;
-            case '6':
-                document.write("sáu");
-                break;
-            case '7':
-                document.write("bảy");
-                break;
-            case '8':
-                document.write("tám");
-                break;
-            case '9':
-                document.write("chín");
-                break;
+    //     let so = prompt("nhập số: ");
+    // let i = 0;
+    // while (i<so.length){
+    //     switch(so[i]) {
+    //         case '0':
+    //             document.write("không");
+    //             break;
+    //         case '1':
+    //             document.write("một");
+    //             break;
+    //         case '2':
+    //             document.write("hai");
+    //             break;
+    //         case '3':
+    //             document.write("ba");
+    //             break;
+    //         case '4':
+    //             document.write("bốn");
+    //             break;
+    //         case '5':
+    //             document.write("năm");
+    //             break;
+    //         case '6':
+    //             document.write("sáu");
+    //             break;
+    //         case '7':
+    //             document.write("bảy");
+    //             break;
+    //         case '8':
+    //             document.write("tám");
+    //             break;
+    //         case '9':
+    //             document.write("chín");
+    //             break;
+    //
+    //     }
+    //     i++;
+    // }
 
-        }
-        i++;
-    }
-
+            let str=["không","mot","hai","ba","bon","nam","sau"];
+            let num = prompt("nhap so");
+            let result = " ";
+            for(let i=0;i<num.length;i++) {
+                result += str[num[i]];
+            }
+            alert("nhap so"+num +"\n"+" chuyen"+result);
+let a=prompt("nhap chuoi");
+alert(a.length);
 </script>
 </body>
 </html>

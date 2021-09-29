@@ -6,16 +6,27 @@
 </head>
 <body>
 <script>
-    let arrA = [1, 2, 3];
-    let arrB = [];
-    for (let i = 0; i < arrA.length; i++) {
-        arrB[i] = 0;
-        for (let j = 0; j < i + 1; j++) {
-            arrB[i] += arrA[j];
-        }
-    }
-    document.write("arrB= [" + arrB + "]");
-
+    // let arrA = [1, 2, 3];
+    // let arrB = [];
+    // for (let i = 0; i < arrA.length; i++) {
+    //     arrB[i] = 0;
+    //     for (let j = 0; j < i + 1; j++) {
+    //         arrB[i] += arrA[j];
+    //     }
+    // }
+    // document.write("arrB= [" + arrB + "]");
+ let a= [];
+ let b= [];
+ let n = parseInt(prompt("nhap độ dài mẩng A "));
+ let temp =0;
+ for(let i=0;i<n;i++){
+     a.push(parseInt(prompt("nhập vào số nguyên")));
+ }
+ for(let i=0; i<a.length;i++){
+     temp+=a[i];
+     b[i]=temp;
+ }
+ alert("Magr a là "+a+"\n"+" Prefix Sum của a"+b);
 
 </script>
 

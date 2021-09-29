@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    //kiêm tra chuoi hay so
+    // let str=prompt("nhap ");
+    //     if (!(str %2 == 0 ||str %2 == 1)){
+    //         count++;
+    //         console.log(str+"là ky tu chuoi");
+    //     }
+    //
+    // function string_to_array(str) {
+    //    return str.trim().split(" ");
+    // }
+    // let kq=string_to_array("Robin Singh");
+    // document.write(kq);
+
+    // string_to_array = function (str,length) {
+    //     return str.slice(0, length);
+    // };
+    // document.write(string_to_array("Robin Singh",3));
+    string_parameterize = function (str1) {
+        return str1.trim().toLowerCase().replace(/[^a-zA-Z0-9 -]/, "").replace(/\s/g, "-");
+    };
+    console.log(string_parameterize("Robin Singh from USA."));
+
+    capitalize = function(str1){
+        return str1.charAt(0).toUpperCase() + str1.slice(1);
+    }
+
+    console.log(capitalize('js string exercises'));
+</script>
+
+</body>
+</html>
