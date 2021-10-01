@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b433ff1-aa1c-49af-ada0-08b1d609110f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bai1/baitap/test.txt" beforeDir="false" />
+    <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/bai_tap/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/bai_tap/UngDungChuyenDoiTienTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/bai_tap/UngDungDocSoThanhChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/GiaiPhuongTrinhBacNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/KhaiBaoVaSuDungBien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/KiemTraNamNhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/SuDungToanTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/TinhChiSoCanNangCoThe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/TinhSoNgayTrongThang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1yomETmnoQCZ4Dscc4FZB9UrcC7" />
+  <component name="ProjectId" id="1yqhF0UncVyJSoglF73i2Qu9THu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,16 +40,91 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.UngDungChuyenDoiTienTe">
+    <configuration name="HienThiLoiChao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.HienThiLoiChao" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KiemTraNamNhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.thuc_hanh.KiemTraNamNhuan" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss1_introduction_to_java.thuc_hanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TinhChiSoCanNangCoThe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.thuc_hanh.TinhChiSoCanNangCoThe" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss1_introduction_to_java.thuc_hanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UngDungChuyenDoiTienTe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.UngDungChuyenDoiTienTe" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UngDungDocSoThanhChu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_java.bai_tap.UngDungDocSoThanhChu" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss1_introduction_to_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UngDungChuyenDoiTienTe" />
+        <item itemvalue="Application.UngDungDocSoThanhChu" />
+        <item itemvalue="Application.HienThiLoiChao" />
+        <item itemvalue="Application.TinhChiSoCanNangCoThe" />
+        <item itemvalue="Application.KiemTraNamNhuan" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b433ff1-aa1c-49af-ada0-08b1d609110f" name="Changes" comment="" />
-      <created>1632926205280</created>
+      <changelist id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="" />
+      <created>1632984919524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632926205280</updated>
+      <updated>1632984919524</updated>
     </task>
     <servers />
   </component>
