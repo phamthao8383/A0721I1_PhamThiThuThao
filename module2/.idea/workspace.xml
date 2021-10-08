@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThi20SoNguyenToDauTien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacSoNguyenToNhoHonMotTram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/thuc_hanh/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/thuc_hanh/ThietKeMenuChoUngDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/thuc_hanh/TimUocChungLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/thuc_hanh/UngDungTinhTienLaiChoVay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/DemKyTuTrongChuoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuVaoMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TimGiaTriNhoNhatTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatTrongMangHaiChieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/ChuongTrinhChuyenDoiNhietDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/DaoNguocCacPhanTuCuaMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriLonNhatTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriNhoNhatTrongMangSuDungPhuongThuc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/UngDungDemSoLuongSinhVienThiDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/TestFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/thuc_hanh/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1yqhF0UncVyJSoglF73i2Qu9THu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,14 +45,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TimGiaTriNhoNhatTrongMang">
-    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.GopMang" />
+  <component name="RunManager" selected="Application.StopWatch">
+    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.Fan" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemPhanTuVaoMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.ThemPhanTuVaoMang" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.StopWatch" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriNhoNhatTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.TimGiaTriNhoNhatTrongMang" />
+    <configuration name="TestFan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.TestFan" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XoaPhanTuRaKhoiMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.XoaPhanTuRaKhoiMang" />
+    <configuration name="TinhTongCacSoMotCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.TinhTongCacSoMotCotXacDinh" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimGiaTriNhoNhatTrongMang" />
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.TestFan" />
+        <item itemvalue="Application.Fan" />
         <item itemvalue="Application.TimPhanTuLonNhatTrongMangHaiChieu" />
-        <item itemvalue="Application.GopMang" />
-        <item itemvalue="Application.ThemPhanTuVaoMang" />
-        <item itemvalue="Application.XoaPhanTuRaKhoiMang" />
+        <item itemvalue="Application.TinhTongCacSoMotCotXacDinh" />
       </list>
     </recent_temporary>
   </component>

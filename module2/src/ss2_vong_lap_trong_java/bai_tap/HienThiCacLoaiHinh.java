@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HienThiCacLoaiHinh {
     public static void main(String[] args) {
-        int choice ;
+        int choice;
         Scanner input = new Scanner(System.in);
         do {
             System.out.println("Menu");
@@ -39,14 +39,14 @@ public class HienThiCacLoaiHinh {
                     }
                     break;
                 case 3:
-                    int k = 0;
-                    for (int i = 1; i <= 5; ++i, k = 0) {
-                        for (int j = 1; j <= 5 - i; ++j) {
+                    for (int i = 1; i <= 5; i++) {
+                        for (int j = 1; j <= 5 + 1 - i; j++) {
+
                             System.out.print("  ");
                         }
-                        while (k != 2 * i - 1) {
+                        for (int j = 1; j <= 2 * i - 1; j++) {
+
                             System.out.print("* ");
-                            ++k;
                         }
                         System.out.println("");
                     }
@@ -56,7 +56,7 @@ public class HienThiCacLoaiHinh {
                 default:
                     System.out.println("No choice!");
             }
-        }while (choice!=0);
+        } while (choice != 0);
     }
 }
 

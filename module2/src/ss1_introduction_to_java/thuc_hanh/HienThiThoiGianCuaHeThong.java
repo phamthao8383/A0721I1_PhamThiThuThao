@@ -7,5 +7,6 @@ public class HienThiThoiGianCuaHeThong {
         Date now = new Date();//lấy ra thời gian hiện tại
         System.out.println("Now is: "+now);
 
+
     }
 }
