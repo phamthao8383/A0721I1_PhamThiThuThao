@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/thuc_hanh/UngDungDemSoLuongSinhVienThiDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/TestFan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/thuc_hanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/TestCircleCylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point2DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point3DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MoveablePointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/TestShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1_introduction_to_java/thuc_hanh/HienThiThoiGianCuaHeThong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2_vong_lap_trong_java/bai_tap/HienThiCacLoaiHinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuRaKhoiMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +55,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo" />
   </component>
-  <component name="RunManager" selected="Application.StopWatch">
-    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.Fan" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MoveablePointTest">
+    <configuration name="MoveablePointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.MoveablePointTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.StopWatch" />
+    <configuration name="Point2DTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point2d_va_lop_point3d.Point2DTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_lop_va_doi_tuong_java.bai_tap.TestFan" />
+    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.thuc_hanh.RectangleTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_lop_va_doi_tuong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss6_ke_thua.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimPhanTuLonNhatTrongMangHaiChieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.TimPhanTuLonNhatTrongMangHaiChieu" />
+    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.thuc_hanh.SquareTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss6_ke_thua.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongCacSoMotCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.TinhTongCacSoMotCotXacDinh" />
+    <configuration name="TestCircleCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.TestCircleCylinder" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_mang_va_phuong_thuc_trong_java.bai_tap.*" />
+          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StopWatch" />
-        <item itemvalue="Application.TestFan" />
-        <item itemvalue="Application.Fan" />
-        <item itemvalue="Application.TimPhanTuLonNhatTrongMangHaiChieu" />
-        <item itemvalue="Application.TinhTongCacSoMotCotXacDinh" />
+        <item itemvalue="Application.MoveablePointTest" />
+        <item itemvalue="Application.Point2DTest" />
+        <item itemvalue="Application.TestCircleCylinder" />
+        <item itemvalue="Application.SquareTest" />
+        <item itemvalue="Application.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
