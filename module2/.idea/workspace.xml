@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier_static_method_property/bai_tap/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_circle_va_cylinder/TestCircleCylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point2DTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point2d_va_lop_point3d/Point3DTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MoveablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/MoveablePointTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/lop_point_va_moveablepoint/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/SquareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/thuc_hanh/TestShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/thiet_ke_trien_khai_lop_triangle/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/thiet_ke_trien_khai_lop_triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/TestResizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/trien_khai_interface_comparable/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/trien_khai_interface_comparable/ComparableCircleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_mang_va_phuong_thuc_trong_java/bai_tap/TinhTongCacSoMotCotXacDinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_lop_va_doi_tuong_java/bai_tap/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +54,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoveablePointTest">
-    <configuration name="MoveablePointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.MoveablePointTest" />
+  <component name="RunManager" selected="Application.TestColorable">
+    <configuration name="AbstractAndInterfaceTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.thuc_hanh.lop_animal_va_interface_edible.AbstractAndInterfaceTests" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint.*" />
+          <option name="PATTERN" value="ss7_abstract_class_interface.thuc_hanh.lop_animal_va_interface_edible.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point2DTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_point2d_va_lop_point3d.Point2DTest" />
+    <configuration name="ComparableCircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.thuc_hanh.trien_khai_interface_comparable.ComparableCircleTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.*" />
+          <option name="PATTERN" value="ss7_abstract_class_interface.thuc_hanh.trien_khai_interface_comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.thuc_hanh.RectangleTest" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestCircle" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.thuc_hanh.*" />
+          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.thuc_hanh.SquareTest" />
+    <configuration name="TestColorable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_coloraable.TestColorable" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.thuc_hanh.*" />
+          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_coloraable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircleCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.TestCircleCylinder" />
+    <configuration name="TestResizeable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestResizeable" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_ke_thua.bai_tap.lop_circle_va_cylinder.*" />
+          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveablePointTest" />
-        <item itemvalue="Application.Point2DTest" />
-        <item itemvalue="Application.TestCircleCylinder" />
-        <item itemvalue="Application.SquareTest" />
-        <item itemvalue="Application.RectangleTest" />
+        <item itemvalue="Application.TestColorable" />
+        <item itemvalue="Application.TestResizeable" />
+        <item itemvalue="Application.TestCircle" />
+        <item itemvalue="Application.ComparableCircleTest" />
+        <item itemvalue="Application.AbstractAndInterfaceTests" />
       </list>
     </recent_temporary>
   </component>
