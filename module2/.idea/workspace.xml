@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/thiet_ke_trien_khai_lop_triangle/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_ke_thua/bai_tap/thiet_ke_trien_khai_lop_triangle/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/Colorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/TestCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/bai_tap/trien_khai_interface_resizeable/TestResizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/AbstractAndInterfaceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/lop_animal_va_interface_edible/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/trien_khai_interface_comparable/ComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/thuc_hanh/trien_khai_interface_comparable/ComparableCircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/bai_tap/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/doi_ten_bien_tach_hang/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +41,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ss6_ke_thua.bai_tap.lop_point_va_moveablepoint" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.TestColorable">
-    <configuration name="AbstractAndInterfaceTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.thuc_hanh.lop_animal_va_interface_edible.AbstractAndInterfaceTests" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.thuc_hanh.lop_animal_va_interface_edible.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComparableCircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.thuc_hanh.trien_khai_interface_comparable.ComparableCircleTest" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.thuc_hanh.trien_khai_interface_comparable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestCircle" />
       <module name="module2" />
@@ -114,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_danh_sach.thuc_hanh.trien_khai_lop_liskdlist_don_gian.TestMyLinkedList" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_danh_sach.thuc_hanh.trien_khai_lop_liskdlist_don_gian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestResizeable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestResizeable" />
       <module name="module2" />
@@ -127,13 +112,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
+      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestColorable" />
+        <item itemvalue="Application.TestMyLinkedList" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="Application.TestResizeable" />
         <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.ComparableCircleTest" />
-        <item itemvalue="Application.AbstractAndInterfaceTests" />
       </list>
     </recent_temporary>
   </component>

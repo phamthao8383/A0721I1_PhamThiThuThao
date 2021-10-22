@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7a9301-115e-456d-94ec-ff2d990ac03a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/module2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss8_clean_code_refactoring/bai_tap/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss8_clean_code_refactoring/thuc_hanh/doi_ten_bien_tach_hang/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/module2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
