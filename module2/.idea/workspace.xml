@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_liskdlist_don_gian/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/thuc_hanh/trien_khai_lop_list_don_gian/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/bai_tap/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/doi_ten_bien_tach_hang/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_refactoring/thuc_hanh/tach_bien/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_arraylist/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_arraylist/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_linkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss7_abstract_class_interface/bai_tap/trien_khai_interface_coloraable/TestColorable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/list" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -59,13 +51,13 @@
       <recent name="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestColorable">
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestCircle" />
+  <component name="RunManager" selected="Application.MyListTest">
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_danh_sach.bai_tap.trien_khai_phuong_thuc_arraylist.MyListTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.*" />
+          <option name="PATTERN" value="ss10_danh_sach.bai_tap.trien_khai_phuong_thuc_arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.TestColorable" />
         <item itemvalue="Application.TestMyLinkedList" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="Application.TestResizeable" />
-        <item itemvalue="Application.TestCircle" />
       </list>
     </recent_temporary>
   </component>
