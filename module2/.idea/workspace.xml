@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_arraylist/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_arraylist/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_danh_sach/bai_tap/trien_khai_phuong_thuc_linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/chuyen_doi_thap_phan_sang_nhi_phan/ThapPhanToNhiPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/dao_nguoc_phan_tu/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/kiem_tra_chuoi_palindrome/CheckPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_stack/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_stack/MyGenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +55,13 @@
       <recent name="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyListTest">
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_danh_sach.bai_tap.trien_khai_phuong_thuc_arraylist.MyListTest" />
+  <component name="RunManager" selected="Application.ThapPhanToNhiPhan">
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.thuc_hanh.trien_khai_queue.LinkedListQueueClient" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_danh_sach.bai_tap.trien_khai_phuong_thuc_arraylist.*" />
+          <option name="PATTERN" value="ss11_stack_queue.thuc_hanh.trien_khai_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestColorable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_coloraable.TestColorable" />
+    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.ReverseStack" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_coloraable.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_danh_sach.thuc_hanh.trien_khai_lop_liskdlist_don_gian.TestMyLinkedList" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.ReverseString" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_danh_sach.thuc_hanh.trien_khai_lop_liskdlist_don_gian.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResizeable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.TestResizeable" />
+    <configuration name="SoNguyen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.SoNguyen" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.bai_tap.trien_khai_interface_resizeable.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,28 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThapPhanToNhiPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.chuyen_doi_thap_phan_sang_nhi_phan.ThapPhanToNhiPhan" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.chuyen_doi_thap_phan_sang_nhi_phan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
-      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_refactoring.thuc_hanh.tach_bien.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyListTest" />
-        <item itemvalue="Application.TestColorable" />
-        <item itemvalue="Application.TestMyLinkedList" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="Application.TestResizeable" />
+        <item itemvalue="Application.ThapPhanToNhiPhan" />
+        <item itemvalue="Application.ReverseStack" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.SoNguyen" />
+        <item itemvalue="Application.LinkedListQueueClient" />
       </list>
     </recent_temporary>
   </component>
