@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/chuyen_doi_thap_phan_sang_nhi_phan/ThapPhanToNhiPhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/dao_nguoc_phan_tu/ReverseStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/kiem_tra_chuoi_palindrome/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_stack/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/thuc_hanh/trien_khai_stack/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/luu_danh_sach_sinh_vien/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/phan_biet_hashmap_hashset/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/phan_biet_hashmap_hashset/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss11_stack_queue/bai_tap/chuyen_doi_thap_phan_sang_nhi_phan/ThapPhanToNhiPhan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss11_stack_queue/bai_tap/chuyen_doi_thap_phan_sang_nhi_phan/ThapPhanToNhiPhan.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Demo" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -55,13 +55,26 @@
       <recent name="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThapPhanToNhiPhan">
-    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.thuc_hanh.trien_khai_queue.LinkedListQueueClient" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HienThiCacLoaiHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2_vong_lap_trong_java.bai_tap.HienThiCacLoaiHinh" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.thuc_hanh.trien_khai_queue.*" />
+          <option name="PATTERN" value="ss2_vong_lap_trong_java.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linkedlist.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.ReverseString" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_java_collecion_framework.thuc_hanh.luu_danh_sach_sinh_vien.TestMap" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoNguyen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.SoNguyen" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.dao_nguoc_phan_tu.*" />
+          <option name="PATTERN" value="ss12_java_collecion_framework.thuc_hanh.luu_danh_sach_sinh_vien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestMap" />
+        <item itemvalue="Application.HienThiCacLoaiHinh" />
         <item itemvalue="Application.ThapPhanToNhiPhan" />
         <item itemvalue="Application.ReverseStack" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.SoNguyen" />
-        <item itemvalue="Application.LinkedListQueueClient" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +153,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="newName" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
