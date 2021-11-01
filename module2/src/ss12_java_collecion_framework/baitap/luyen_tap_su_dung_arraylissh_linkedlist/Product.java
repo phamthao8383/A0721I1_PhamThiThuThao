@@ -1,6 +1,7 @@
 package ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linkedlist;
 
-public class Product {
+
+public  class Product  {
     private static int id;
     // protected int id;
     protected String name;
@@ -40,4 +41,7 @@ public class Product {
     public String toString() {
         return "name='" + name + '\'' + ", price=" + price;
     }
+
 }
+
+

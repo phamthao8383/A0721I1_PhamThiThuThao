@@ -2,7 +2,8 @@ package ss12_java_collecion_framework.thuc_hanh.sap_xep_comparable_va_comparator
 
 import java.util.Collections;
 
-public class Student {
+public class Student implements Comparable <Student> {
+
     private String name;
     private Integer age;
     private String address;
@@ -35,7 +36,6 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
-
     }
 
     @Override
@@ -45,5 +45,8 @@ public class Student {
                 '}';
     }
 
-
+    @Override
+    public int compareTo(Student student) {
+        return this.getName().compareTo(student.getName());
+    }
 }
