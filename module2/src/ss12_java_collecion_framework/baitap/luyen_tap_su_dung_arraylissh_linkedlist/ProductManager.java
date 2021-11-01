@@ -34,13 +34,26 @@ public class ProductManager {
         }
     }
 
-    public void update(Product p, String nameEdit, double priceEdit) {
-        p.setName(nameEdit);
-        p.setPrice(priceEdit);
+    public void update(String oldName,String newName) {
+        int indexValue = getProductIndexByName(oldName);
+        if (indexValue != -1) {
+            productList.get(indexValue).setName(newName);
+        } else {
+            System.out.println("there is no " + oldName);
+        }
     }
+
 
     public void sort() {
     Collections.sort(productList, new CompareProduct());
+    }
+    private int getProductIndexByName(String productName) {
+        int indexValue = -1;
+        for (int i = 0; i < productList.size(); i++) {
+            if(productList.get(i).getName().equals(productName))
+                indexValue = i;
+        }
+        return indexValue;
     }
 
 }

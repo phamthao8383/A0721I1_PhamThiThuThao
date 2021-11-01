@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/CompareProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/bai_tap/tim_chuoi_tang_dan_co_do_dai_lon_nhat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/thuc_hanh/tinh_do_phuc_tap_cua_thuat_toan/AlgorithmComplexityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/thuc_hanh/sap_xep_comparable_va_comparator/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

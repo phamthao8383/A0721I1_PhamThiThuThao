@@ -2,24 +2,23 @@ package ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linked
 
 
 public  class Product  {
-    private static int id;
-    // protected int id;
+    protected  int id;
     protected String name;
     protected double price;
 
-    public Product(String name, double price) {
-        Product.id++;
+    public Product(int id,String name, double price) {
+        this.id=id;
         this.name = name;
         this.price = price;
     }
-
-    public static int getId() {
+    public void setId(int id) {
+        this.id = id;
+    }
+    public  int getId() {
         return id;
     }
 
-    public static void setId(int id) {
-        Product.id = id;
-    }
+
 
     public String getName() {
         return name;
@@ -39,9 +38,11 @@ public  class Product  {
 
     @Override
     public String toString() {
-        return "name='" + name + '\'' + ", price=" + price;
+        return "id=" +id+
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
     }
-
 }
 
 

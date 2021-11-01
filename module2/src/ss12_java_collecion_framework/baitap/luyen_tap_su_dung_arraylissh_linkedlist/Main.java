@@ -2,6 +2,8 @@ package ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linked
 
 import java.util.Scanner;
 
+import static javax.swing.text.html.HTML.Attribute.N;
+
 public class Main {
     public static void main(String[] args) {
         // Product[] products = new p[100];
@@ -19,16 +21,21 @@ public class Main {
             line = scanner.nextLine();
             switch (line) {
                 case "1": {
+                    System.out.println(" nhập ten id:");
+                    int id=Integer.parseInt(scanner.nextLine());
                     System.out.println(" nhập ten sp:");
                     String name = scanner.nextLine();
                     System.out.println("nhap giá sp :");
                     double price = Double.parseDouble(scanner.nextLine());
-                    Product product = new Product(name, price);
+                    Product product = new Product(id,name, price);
                     productManager.addProduct(product);
                     break;
                 }
                 case "2": {
-
+                    System.out.println("Nhap ten edit");
+                    String oldName=scanner.nextLine();
+                    productManager.update("bia",oldName);
+                    break;
                 }
                 case "3": {
                     productManager.displayProduct();
