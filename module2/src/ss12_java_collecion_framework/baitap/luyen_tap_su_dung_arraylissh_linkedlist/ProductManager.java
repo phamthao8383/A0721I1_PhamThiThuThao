@@ -2,7 +2,6 @@ package ss12_java_collecion_framework.baitap.luyen_tap_su_dung_arraylissh_linked
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class ProductManager {
@@ -23,21 +22,21 @@ public class ProductManager {
         }
     }
 
-    public void searchByName(String name) {
-        // boolean res= false;
+    public boolean searchByName(String name) {
         for (int i = 0; i < productList.size(); i++) {
             if (name.equals(productList.get(i).getName())) {
                 System.out.println(productList.get(i).toString());
-                break;
+                return true;
             }
-            // System.out.println("Không tìm thấy");
         }
+        System.out.println("Nhâp Sai");
+        return false;
     }
 
     public void update(String oldName,String newName) {
         int indexValue = getProductIndexByName(oldName);
         if (indexValue != -1) {
-            productList.get(indexValue).setName(newName);
+         productList.get(indexValue).setName(newName);
         } else {
             System.out.println("there is no " + oldName);
         }
