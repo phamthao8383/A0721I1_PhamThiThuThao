@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5aaa9b6-acee-49f0-bd51-88fd8a64ee14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/country.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_thuat_toan_sap_xep/thuc_hanh/minh_hoa_thuat_toan_sap_xep_noi_bot/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_xu_li_ngoai_le_debug/baitap/su_dung_lop_illegaltriangleexception/TestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_xu_li_ngoai_le_debug/thuc_hanh/debug_ung_dung_java/LinearEquationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_xu_li_ngoai_le_debug/thuc_hanh/su_dung_lop_arrayindexoutofboundsexception/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_xu_li_ngoai_le_debug/thuc_hanh/su_dung_lop_numberformatexception/CalculationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/bai_tap/copy_file_text/CopyTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/bai_tap/doc_file_csv/CSVReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/ReadFileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16_io_text_file/thuc_hanh/tinh_tong_cac_so_trong_file_text/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binary_file_serialization/thuc_hanh/copy_file_co_dung_luong_lon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/targetFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/bai_tap/crawl_new/CrawlNewsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/bai_tap/validate_phone/PhoneNumberExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/bai_tap/validate_phone/PhoneNumberExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/bai_tap/validate_ten_lop_hoc/ClassNameExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/bai_tap/validate_ten_lop_hoc/ClassNameExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/thuc_hanh/crawl_danh_sach_bai_hat/CrawlSongExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/thuc_hanh/validate_account/AccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/thuc_hanh/validate_account/AccountExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/thuc_hanh/validate_email/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/thuc_hanh/validate_email/EmailExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collecion_framework/baitap/luyen_tap_su_dung_arraylissh_linkedlist/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
       <recent name="ss8_clean_code_refactoring.thuc_hanh.tach_bien" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductManager">
+  <component name="RunManager" selected="Application.ReadFileExample">
     <configuration name="CSVReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss16_io_text_file.bai_tap.doc_file_csv.CSVReader" />
       <module name="module2" />
@@ -134,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFileExample" />
         <item itemvalue="Application.ProductManager" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.CSVReader" />
         <item itemvalue="Application.CopyTextFile" />
-        <item itemvalue="Application.ReadFileExample" />
       </list>
     </recent_temporary>
   </component>
