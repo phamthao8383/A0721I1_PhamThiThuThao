@@ -309,17 +309,78 @@ contract.deposits, count(contract_details.Accompanied_serviceID)
 as service_quantily
 from contract join contract_details on contract.contractID=contract_details.contractID
 group by contract.contractID;
--- 11.	Hiển thị thông tin các dịch vụ đi kèm đã được 
--- sử dụng
+-- 11.	Hiển thị thông tin các dịch vụ đi kèm đã được  sử dụng
 -- bởi những khách hàng có ten_loai_khach là “Diamond”
 -- và có dia_chi ở “Vinh” hoặc “Quảng Ngãi”.
+select *
+from Accompanied_service as a
+-- join contract as c on c.contractID=a.contractID
+join contract_details as cd on a.Accompanied_serviceID=cd.Accompanied_serviceID
+join contract as c on cd.contractID=c.contractID
+join customers on c.customerID=customers.customerID
+join type_customers as t on customers.type_customerID=t.type_customerID
+where customers.address in ("Vinh","Quảng Ngãi")
+and t.type_customerName="Diamond";
 
+-- 12.	Hiển thị thông tin ma_hop_dong, ho_ten (nhân viên),
+-- ho_ten (khách hàng), so_dien_thoai (khách hàng),
+-- ten_dich_vu, so_luong_dich_vu_di_kem
+-- (được tính dựa trên việc sum so_luong ở dich_vu_di_kem),
+-- tien_dat_coc của tất cả các dịch vụ đã từng 
+-- được khách hàng đặt vào 3 tháng cuối năm 2020 
+-- nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2021.
 
+select contract.contractID,staffs.staffName,customers.customerName,
+customers.phoneNumber,services.serviceName,
+count(contract_details.Accompanied_serviceID) as so_lan
+from contract join staffs on contract.staffID=staffs.staffID
+join customers on contract.customerID=customers.customerID
+join services on services.serviceID=contract.serviceID
+join contract_details on contract.contractID=contract_details.contractID
+where not exists(select contract.contractID where
+contract.start_day between "2021-01-01" and"2021-06-30")
+and  exists(select contract.contractID where
+contract.start_day between "2021-09-01" and"2021-12-30");
+-- 13.	Hiển thị thông tin các Dịch vụ đi kèm được
+--  sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng. 
+-- (Lưu ý là có thể có nhiều dịch vụ có
+-- số lần sử dụng nhiều như nhau).
+create temporary table temp
+select Accompanied_service.Accompanied_serviceName as name,
+ count(contract_details.Accompanied_serviceID) as so_lan
+ from contract_details join Accompanied_service
+ on Accompanied_service.Accompanied_serviceID=contract_details.Accompanied_serviceID
+group by Accompanied_service.Accompanied_serviceName;
 
+select *from temp;
+create temporary table temp1
+select max(temp.so_lan)as max_so_lan
+from temp;
+select *from temp1;
 
+select temp.name, temp.so_lan
+from temp join temp1 on temp.so_lan=temp1.max_so_lan;
+drop temporary table temp;
+drop temporary table temp1;
+-- 16.	Xóa những Nhân viên chưa từng lập được hợp đồng 
+-- nào từ năm 2019 đến năm 2021.
+delete from staffs where not exists(select staffs.staffID 
+from contract where contract.start_day between '2019-01-01' and '2021-12-31' and contract.staffID=staffs.staffID );
 
+-- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem, so_lan_su_dung
+--  (được tính dựa trên việc count các ma_dich_vu_di_kem).
+select contract.contractID,type_services.type_serviceName,Accompanied_service.Accompanied_serviceName,count(contract_details.Accompanied_serviceID) as so_lan
+from contract join services ON contract.serviceID=services.serviceID
+join type_services on services.type_serviceID=type_services.type_serviceID
+join contract_details on contract.contractID=contract_details.contractID
+join Accompanied_service on Accompanied_service.Accompanied_serviceID=contract_details.Accompanied_serviceID
+group by Accompanied_service.Accompanied_serviceName
+having so_lan=1;
 
-
+-- -- 17.	Cập nhật thông tin những khách hàng có
+--  ten_loai_khach từ Platinum lên Diamond,
+--  chỉ cập nhật những khách hàng đã từng đặt phòng với 
+-- Tổng Tiền thanh toán trong năm 2021 là lớn hơn 10.000.000 VNĐ
 
 
 
