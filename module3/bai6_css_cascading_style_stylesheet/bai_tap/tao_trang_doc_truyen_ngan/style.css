@@ -1,0 +1,60 @@
+
+#header{
+    height:100px;
+    background-color:green;
+    clear:both;
+    padding-top:.5em;
+    font-size:1.5em;
+    width: 7000px;
+    margin-right: 100px;
+}
+#header ul{
+    margin:10px;
+    padding:0;
+    list-style:none;
+    margin-left: 50px;
+}
+#header li{
+    width:155px;
+    display:inline-block;
+    text-align:center;
+}
+#header h{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    display: inline;
+    font-family: "Brush Script MT";
+
+
+    margin-top: 5px;
+}
+
+
+
+.horror-stories{
+    padding-top: 75px;
+    padding-left: 33px;
+    width: 100%;
+    text-align: center;
+    background-color: #aaaaaa;
+}
+.horror-stories tr{
+    width: 100%;
+    text-align: center;
+}
+.horror-stories td{
+    padding: 40px;
+}
+.horror-stories td p {
+    font-family: Tahoma;
+    font-weight: 500;
+    font-size: 150%;
+}
+.horror-stories td:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#novel .horror-stories{
+    background-color: #7ef7ff;
+}
