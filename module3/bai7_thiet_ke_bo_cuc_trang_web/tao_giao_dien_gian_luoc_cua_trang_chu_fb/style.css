@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+
+}
+  #menu{
+    height: 100px;
+      width: 100%;
+    padding: 0;
+    margin: 0;
+      top:0;
+    background-color: white;
+    border: 1px solid royalblue;
+      position: fixed;
+}
+ #menu ul,  #menu li{
+    padding:0;
+    margin:0;
+}
+ ul{
+    padding: 0;
+    margin: 0;
+}
+  #menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+ #menu ul ul li  {
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+
+nav h3 {
+    height: 20px;
+    padding-top: 10px;
+    height: 10px;
+    background-color: #7ef7ff;
+    width: 100%;
+
+}

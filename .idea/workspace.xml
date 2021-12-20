@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7a9301-115e-456d-94ec-ff2d990ac03a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/A0721I1_PhamThiThuThao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/.idea/bai6_css_cascading_style_stylesheet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/dinhDangVanBanCss/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/dinhDangVanBanCss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/nhung_css_vao_trang_html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/nhung_css_vao_trang_html/nhungcss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/tao_trang_doc_truyen_ngan/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/bai_tap/tao_trang_doc_truyen_ngan/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai6_css_cascading_style_stylesheet/thuc_hanh/su_dung_css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_cac_the_html_css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,12 +33,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0721I1_PhamThiThuThao\module3\bai7_thiet_ke_bo_cuc_trang_web\tao_giao_dien_gian_luoc_cua_trang_chu_fb" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -50,7 +61,9 @@
       <workItem from="1639815910264" duration="64000" />
       <workItem from="1639816008602" duration="8000" />
       <workItem from="1639816780266" duration="2000" />
-      <workItem from="1639818466214" duration="8366000" />
+      <workItem from="1639818466214" duration="9161000" />
+      <workItem from="1639956938134" duration="594000" />
+      <workItem from="1640000501965" duration="12282000" />
     </task>
     <servers />
   </component>
