@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7a9301-115e-456d-94ec-ff2d990ac03a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_cac_the_html_css/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_doc/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/600px-Facebook_Logo_(2019).png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/600px-Facebook_Logo_(2019).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +43,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ss7_web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0721I1_PhamThiThuThao\module3\bai7_thiet_ke_bo_cuc_trang_web\bai_tap" />
       <recent name="D:\A0721I1_PhamThiThuThao\module3\bai7_thiet_ke_bo_cuc_trang_web\tao_giao_dien_gian_luoc_cua_trang_chu_fb" />
     </key>
   </component>
@@ -63,7 +69,9 @@
       <workItem from="1639816780266" duration="2000" />
       <workItem from="1639818466214" duration="9161000" />
       <workItem from="1639956938134" duration="594000" />
-      <workItem from="1640000501965" duration="12282000" />
+      <workItem from="1640000501965" duration="12543000" />
+      <workItem from="1640270837582" duration="626000" />
+      <workItem from="1640343158093" duration="9130000" />
     </task>
     <servers />
   </component>
@@ -87,5 +95,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1639832495960" />
+    <state x="136" y="119" key="FileChooserDialogImpl" timestamp="1640344379523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="136" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640344379523" />
   </component>
 </project>
