@@ -25,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -140,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640938509517</updated>
       <workItem from="1640938511148" duration="572000" />
-      <workItem from="1640946879916" duration="228000" />
+      <workItem from="1640946879916" duration="1034000" />
     </task>
     <servers />
   </component>

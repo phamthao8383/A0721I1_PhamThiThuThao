@@ -29,11 +29,7 @@ public class StudentServlet extends HttpServlet {
                 iStudentService.save(id,name,grade);
                 response.sendRedirect("/student");
             }
-            case "delete":{
-                String id=request.getParameter("id");
-                iStudentService.delete(id);
-                response.sendRedirect("/student");
-            }
+
         }
 
     }
@@ -51,12 +47,15 @@ public class StudentServlet extends HttpServlet {
                 request.getRequestDispatcher("/update_student.jsp").forward(request,response);
             }
             case "delete":{
-                String id =request.getParameter("id");
-                Student student =iStudentService.findById(id);
-                request.setAttribute("student",student);
-              //  request.getRequestDispatcher("/delete_student.jsp").forward(request,response);
+                Integer id= Integer.valueOf(request.getParameter("id"));
+                iStudentService.delete(id);
+                List<Student> studentList =iStudentService.findAll();
+                request.setAttribute("studentList",studentList);
+                request.getRequestDispatcher("/list_student.jsp").forward(request,response);
+
 
             }
+
             default :{
                 List<Student> studentList =iStudentService.findAll();
                 request.setAttribute("studentList",studentList);

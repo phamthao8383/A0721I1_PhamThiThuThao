@@ -24,14 +24,14 @@ public class StudentRepository implements IStudentRepository {
     }
 
     @Override
-    public void delete(String id) {
-        Integer temp = Integer.parseInt(id);
-        for(Student student: studentList){
-            if(student.getId().equals(temp)){
-                studentList.remove(temp);
+    public void delete(Integer id) {
+        for(Student student:studentList){
+            if(student.getId().equals(id)){
+                studentList.remove(id);
             }
         }
     }
+
 
     @Override
     public List<Student> findAll() {

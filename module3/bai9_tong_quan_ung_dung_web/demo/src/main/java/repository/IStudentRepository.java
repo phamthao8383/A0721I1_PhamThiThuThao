@@ -10,5 +10,5 @@ public interface IStudentRepository {
     Student findById(String id);
     void save(String id, String name, String grade);
 
-    void delete(String id);
+    void delete(Integer id);
 }

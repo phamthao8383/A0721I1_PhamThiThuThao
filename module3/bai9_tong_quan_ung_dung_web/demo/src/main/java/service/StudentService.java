@@ -28,7 +28,9 @@ public class StudentService implements IStudentService {
     }
 
     @Override
-    public void delete(String id) {
+    public void delete(Integer id) {
         iStudentRepository.delete(id);
     }
+
+
 }

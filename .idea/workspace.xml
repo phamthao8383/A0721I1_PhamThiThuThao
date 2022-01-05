@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7a9301-115e-456d-94ec-ff2d990ac03a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai10_tong_quan_ung_dung_web/thuc_hanh/tao_trang_web_hien_thi_thoi_gian_he_thong/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian_su_dung_boostrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian_su_dung_boostrap/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai8_bootstrap_co_ban/thuc_hanh/xay_dung_form_login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/bai8_bootstrap_co_ban/thuc_hanh/xay_dung_form_login/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/600px-Facebook_Logo_(2019).png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/600px-Facebook_Logo_(2019).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.png" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_gian_luoc_cua_trang_chu_fb/tải xuống.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,8 @@
       <workItem from="1640000501965" duration="12543000" />
       <workItem from="1640270837582" duration="626000" />
       <workItem from="1640343158093" duration="9130000" />
+      <workItem from="1640439020078" duration="1982000" />
+      <workItem from="1640592542295" duration="3670000" />
     </task>
     <servers />
   </component>
