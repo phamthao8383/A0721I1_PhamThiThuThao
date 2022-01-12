@@ -1,6 +1,6 @@
 package controller;
 
-import Services.ProductDao;
+import Services.ProductServices;
 import model.Product;
 
 import javax.servlet.*;
@@ -25,6 +25,9 @@ public class ProductServlet extends HttpServlet {
                 editP(request,response);
                 break;
             }
+            case "delete":{
+                deleteProduct(request,response);
+            }
             default :
                 goProductList(request,response);
                 break;
@@ -32,16 +35,25 @@ public class ProductServlet extends HttpServlet {
 
     }
 
+    private void deleteProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer id= Integer.valueOf(request.getParameter("id"));
+        Product product = ProductServices.deleteId(id);
+        request.setAttribute("message","Delete student successfully!!");
+        goProductList(request,response);
+       // request.setAttribute("product",product);
+       // request.getRequestDispatcher("/edit.jsp").forward(request,response);
+    }
+
     private void editP(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         Integer id= Integer.valueOf(request.getParameter("id"));
-        Product product =ProductDao.findById(id);
+        Product product = ProductServices.findById(id);
         request.setAttribute("product",product);
         request.getRequestDispatcher("/edit.jsp").forward(request,response);
     }
 
 
     private void goProductList(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
-        request.setAttribute("productList", ProductDao.getListProduct());
+        request.setAttribute("productList", ProductServices.getListProduct());
         request.getRequestDispatcher("/list.jsp").forward(request,response);
     }
 
@@ -70,7 +82,7 @@ public class ProductServlet extends HttpServlet {
         String color=request.getParameter("color");
         String category=request.getParameter("category");
         Product product=new Product(id,name,price,quantity,color,category);
-        ProductDao.save(product);
+        ProductServices.save(product);
         request.setAttribute("message","Edit successfully!!");
         goProductList(request,response);
     }
@@ -83,7 +95,7 @@ public class ProductServlet extends HttpServlet {
         String color=request.getParameter("color");
         String category=request.getParameter("category");
         Product product=new Product(id,name,price,quantity,color,category);
-        ProductDao.save(product);
+        ProductServices.save(product);
         response.sendRedirect("/productServlet");
 
     }

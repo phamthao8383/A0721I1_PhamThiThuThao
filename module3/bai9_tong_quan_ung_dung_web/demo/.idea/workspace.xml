@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ss11_MVC" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -151,6 +151,7 @@
       <workItem from="1640956986987" duration="675000" />
       <workItem from="1640960438845" duration="480000" />
       <workItem from="1640961258758" duration="1757000" />
+      <workItem from="1641561944257" duration="1286000" />
     </task>
     <servers />
   </component>

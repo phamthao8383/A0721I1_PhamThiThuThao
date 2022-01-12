@@ -27,7 +27,7 @@ public class StudentRepository implements IStudentRepository {
     public void delete(Integer id) {
         for(Student student:studentList){
             if(student.getId().equals(id)){
-                studentList.remove(id);
+                studentList.remove(student.getId());
             }
         }
     }

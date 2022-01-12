@@ -52,8 +52,7 @@ public class StudentServlet extends HttpServlet {
                 List<Student> studentList =iStudentService.findAll();
                 request.setAttribute("studentList",studentList);
                 request.getRequestDispatcher("/list_student.jsp").forward(request,response);
-
-
+                response.sendRedirect("/student");
             }
 
             default :{
