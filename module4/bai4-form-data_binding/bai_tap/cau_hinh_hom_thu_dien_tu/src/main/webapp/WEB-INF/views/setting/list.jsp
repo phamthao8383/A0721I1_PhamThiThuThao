@@ -1,0 +1,26 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Languages:</td>
+        <td>${languages}</td>
+    </tr>
+    <tr>
+        <td>Size:</td>
+        <td>${size}}</td>
+    </tr>
+    <tr>
+        <td>spams:</td>
+        <td>${spams}</td>
+    </tr>
+    <tr>
+        <td>signature:</td>
+        <td>${signature}</td>
+    </tr>
+</table>
+</body>
+</html>
