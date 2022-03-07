@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa2d294a-6c9f-4d67-ad80-130bb06f4ea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/SpringMVCAnnotationShoppingCart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/SbHibernateShoppingCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/entity/Producr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/form/CustomerForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/form/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/CartLineInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/CustomerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/OrderDetailInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/model/ProductInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/pagination/PaginationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/validator/CustomerFormValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/validator/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/java/com/example/demo/validator/ProductFormValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/accountInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/orderList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/productList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/shoppingCart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/shoppingCartConfirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/shoppingCartCustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/shoppingCartFinalize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_mvc/thuc_hanh/demo/src/main/resources/templates/validation.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/repository/IGeneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_jpa/thuc_hanh/ung_dung_quan_ly_khach_hang/src/main/java/com/codegym/cms/service/IGeneralService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25rBYLRLRkTLZfomu2QNrUDvYMd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa2d294a-6c9f-4d67-ad80-130bb06f4ea7" name="Changes" comment="" />
+      <created>1646275372673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646275372673</updated>
+      <workItem from="1646275374287" duration="171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
