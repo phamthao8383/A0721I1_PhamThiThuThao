@@ -2,6 +2,7 @@ package service;
 
 import model.Customer;
 
+import java.awt.print.Pageable;
 import java.util.List;
 
 public interface ICustomerService {
