@@ -1,8 +1,7 @@
-package com.example.them_san_pham_vao_gio_hang.model;
+package com.example.hoan_thien_gio_hang.model;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 public class Cart {
     private Map<Product,Integer> products = new HashMap<>();
@@ -17,7 +16,7 @@ public class Cart {
     public Map<Product,Integer> getProducts() {
         return products;
     }
-//kiem tra sp có trong giỏ hàng chưa
+
     private boolean checkItemInCart(Product product){
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
             if(entry.getKey().getId().equals(product.getId())){
@@ -35,7 +34,7 @@ public class Cart {
         }
         return null;
     }
-// thêm sp vào gio
+
     public void addProduct(Product product){
         if (!checkItemInCart(product)){
             products.put(product,1);
@@ -45,25 +44,7 @@ public class Cart {
             products.replace(itemEntry.getKey(),newQuantity);
         }
     }
-    public void downItem(Product product){
-        if (checkItemInCart(product)){
-            Map.Entry<Product, Integer> entry = selectItemInCart(product);
-            if (entry.getValue()>1) {
-                Integer count = entry.getValue() - 1;
-                products.replace(entry.getKey(), count);
-            }
-        }
-    }
-    public void deleteById(Long id){
-        for (Map.Entry<Product, Integer> entry : products.entrySet()){
-            if (entry.getKey().getId().equals(id)){
-                products.remove(entry.getKey());
-            }
-        }
-    }
 
-
-//đếm số lượng sp
     public Integer countProductQuantity(){
         Integer productQuantity = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {
@@ -75,7 +56,7 @@ public class Cart {
     public Integer countItemQuantity(){
         return products.size();
     }
-//tiền
+
     public Float countTotalPayment(){
         float payment = 0;
         for (Map.Entry<Product, Integer> entry : products.entrySet()) {

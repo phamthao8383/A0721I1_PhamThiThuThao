@@ -67,12 +67,13 @@
                 <div class="card" th:each="product:${products}" >
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
+                        <!--/*@thymesVar id="name" type=""*/-->
+                        <h5 class="card-title" th:text="${product.image}">Name</h5>
                         <h5 class="card-title" th:text="${product.name}">Name</h5>
                         <p class="card-text" th:text="${product.price}" >This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <button><a th:href="@{/add/__${product.id}__(action='list')}">Add To Cart</a></button>
                     </div>
                 </div>
-            </div>
         </article>
         <aside class="col-sm-3">
             <div class="poly-cart">
@@ -80,6 +81,8 @@
                     <div class="panel-body">
                         <img class="col-sm-5" src="images/shoppingcart.gif">
                         <ul class="col-sm-7">
+<!--                            <li>100 items</li>-->
+<!--                            <li>$56.8</li>-->
                             <li><a href="/shopping-cart">Xem giỏ hàng</a></li>
                         </ul>
                     </div>
