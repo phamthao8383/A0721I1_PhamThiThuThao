@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="Admin/fragments/AdminLayout:: Head"></head>
+
+<body>
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div class="lds-pos"></div>
+			<div class="lds-pos"></div>
+		</div>
+	</div>
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6"
+		data-sidebartype="full" data-sidebar-position="absolute"
+		data-header-position="absolute" data-boxed-layout="full">
+		<!-- ============================================================== -->
+		<!-- Topbar header - style you can find in pages.scss -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: Header"></div>
+		<!-- ============================================================== -->
+		<!-- End Topbar header -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: leftSidebar"></div>
+		<!-- End Sidebar scroll-->
+		</aside>
+		<!-- ============================================================== -->
+		<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Page wrapper  -->
+		<!-- ============================================================== -->
+		<div class="page-wrapper">
+			<!-- ============================================================== -->
+			<!-- Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<div class="page-breadcrumb">
+				<div class="row align-items-center">
+					<div class="col-md-6 col-8 align-self-center">
+						<h3 class="page-title mb-0 p-0">Shiper</h3>
+						<div class="d-flex align-items-center">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">Manager Admin</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Shiper</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+					<div class="col-md-6 col-4 align-self-center">
+						<div class="text-end upgrade-btn">
+							<a href="https://www.wrappixel.com/templates/monsteradmin/"
+								class="btn btn-success d-none d-md-inline-block text-white"
+								target="_blank">Upgrade to Pro</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================================================== -->
+			<!-- End Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+
+			<!-- ============================================================== -->
+			<!-- Table -->
+			<!-- ============================================================== -->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<div class="d-md-flex">
+								<h4 class="card-title col-md-10 mb-md-0 mb-3 align-self-center"> <a href="/Admin/Shipper/add" class="btn btn-success">Add Shiper</a>  </h4>
+								<div class="col-md-2 ms-auto">
+									<select class="form-select shadow-none col-md-2 ml-auto">
+										<option selected>January</option>
+										<option value="1">February</option>
+										<option value="2">March</option>
+										<option value="3">April</option>
+									</select>
+								</div>
+							</div>
+							<div class="table-responsive mt-5">
+								<table class="table stylish-table no-wrap">
+									<thead>
+										<tr>
+											<th class="border-top-0" colspan="2">ID</th>
+											<th class="border-top-0">Name</th>
+											<th class="border-top-0">Price</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr th:each="shipper : ${shipper}" class="active">
+											<td><span class="round"><img
+													src="../assets/images/users/2.jpg" alt="user" width="50"></span>
+											</td>
+											<td class="align-middle">
+											<small th:text="${shipper.id}" class="text-muted"></small>
+											</td>
+											<td th:text="${shipper.name}" class="align-middle"></td>
+											<td th:text="${shipper.price}" class="align-middle"></td>
+											<td><a th:href="@{/Admin/Shipper/edit?id={id}(id=${shipper.id})}"
+												class="btn btn-primary">Edit</a> <a
+												th:href="@{/Admin/Shipper/delete?id={id}(id=${shipper.id})}"
+												class="btn btn-danger">Delete</a>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================================================== -->
+			<!-- Table -->
+			<!-- ============================================================== -->
+
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- footer -->
+			<!-- ============================================================== -->
+			<div th:replace="Admin/fragments/AdminLayout:: Footer"></div>
+			<!-- ============================================================== -->
+			<!-- End footer -->
+			<!-- ============================================================== -->
+		</div>
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout ">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link
+	href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+	rel="stylesheet">
+
+<title>Sixteen Clothing Products</title>
+
+<!-- Bootstrap core CSS -->
+<head th:replace="Custommers/fragments/Css :: head"></head>
+
+
+
+
+<body>
+
+	<!-- ***** Preloader Start ***** -->
+	<div id="preloader">
+		<div class="jumper">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- ***** Preloader End ***** -->
+
+	<!-- Header -->
+	<div th:replace="Custommers/fragments/Header :: Header"></div>
+	<!-- Page Content -->
+	<div class="page-heading products-heading header-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-content">
+						<h4>new arrivals</h4>
+						<h2>sixteen products</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="products">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="filters">
+						<ul>
+							<li class="active" data-filter="*">All Products</li>
+							<li data-filter=".des">Featured</li>
+							<li data-filter=".dev">Flash Deals</li>
+							<li data-filter=".gra">Last Minute</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+				<form th:action="@{/Home/Products/Find}">
+					<div class="input-group">
+						<input type="search" class="form-control rounded"
+							placeholder="Search" aria-label="Search" id = "search"
+							aria-describedby="search-addon" name = "search" th:value="${search}"/>
+						
+					</div>
+					</form>
+				</div>
+				<div class="col-md-12">
+					<div class="filters-content">
+						<div class="row grid">
+							<th:block th:each="product : ${products}">
+								<div class="col-lg-4 col-md-4 all des">
+									<div class="product-item">
+										<a href="#"><img
+											th:src="@{'/Custommer/Home/assets/upLoadImage'+${product.avatar}}"
+											alt=""></a>
+										<div class="down-content">
+											<a th:href="@{/Home/ProductDetail?id={id}(id=${product.id})}"><h4>
+													<li th:utext="${product.name}"></li>
+												</h4></a>
+											<h6 th:utext="${product.price}"></h6>
+											<p th:utext="${product.description}"></p>
+											<th:block th:if="${product.avgRating == null}">
+												<ul>Chua co danh gia
+												</ul>
+											</th:block>
+											<th:block th:unless="${product.avgRating == null}">
+												<ul class="stars">
+													<th:block
+														th:each="i: ${#numbers.sequence(1, product.avgRating)}">
+
+														<li><i class="fa fa-star"></i></li>
+
+													</th:block>
+
+
+												</ul>
+											</th:block>
+
+											<span
+												th:utext="'Review ('+${product.reviewsEnities.size()} +')'"></span>
+											<br>
+											<div>
+												<button id="scroll" type="button" class="btn"
+													th:attr="onclick=|ls('${product.id}',1)|">add to
+													cart</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</th:block>
+						</div>
+
+
+					</div>
+
+				</div>
+				<div class="col-md-12">
+					<div class="filters-content">
+						<div class="row grid">
+							<div id="test"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div th:replace="Custommers/fragments/Footer :: Footer"></div>
+	<div th:replace="Custommers/fragments/Js :: script"></div>
+
+
+	<script th:src="@{/Custommer/Home/assets/js/products.js}"></script>
+
+
+
+
+
+</body>
+
+</html>

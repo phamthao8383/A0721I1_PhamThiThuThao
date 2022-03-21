@@ -1,0 +1,183 @@
+<head th:fragment="Head">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Tell the browser to be responsive to screen width -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords"
+	content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Monsterlite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Monster admin lite design, Monster admin lite dashboard bootstrap 5 dashboard template">
+<meta name="description"
+	content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+<meta name="robots" content="noindex,nofollow">
+<title>Monster Lite Template by WrapPixel</title>
+<link rel="canonical"
+	href="https://www.wrappixel.com/templates/monster-admin-lite/" />
+<!-- Custom CSS -->
+<link th:href="@{/Admin/css/style.min.css}" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<script th:src="@{/Admin/assets/plugins/jquery/dist/jquery.min.js}"></script>
+<!--Custom JavaScript -->
+<script th:src="@{/Admin/js/custom.js}"></script>
+<!--  -->
+<link th:href="@{/Admin/assets/plugins/chartist/dist/chartist.min.css}"
+	rel="stylesheet">
+<script th:src="@{/Admin/assets/plugins/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script
+	th:src="@{/Admin/assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<script th:src="@{/Admin/js/app-style-switcher.js}"></script>
+<!--Wave Effects -->
+<script th:src="@{/Admin/js/waves.js}"></script>
+<!--Menu sidebar -->
+<script th:src="@{/Admin/js/sidebarmenu.js}"></script>
+<!--Custom JavaScript -->
+<script th:src="@{/Admin/js/custom.js}"></script>
+<!--This page JavaScript -->
+<!--flot chart-->
+<script th:src="@{/Admin/assets/plugins/flot/jquery.flot.js}"></script>
+<script
+	th:src="@{/Admin/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js}"></script>
+<script th:src="@{/Admin/js/pages/dashboards/dashboard1.js}"></script>
+
+</head>
+</head>
+<div th:fragment="Header">
+	<header class="topbar" data-navbarbg="skin6">
+		<nav class="navbar top-navbar navbar-expand-md navbar-dark">
+			<div class="navbar-header" data-logobg="skin6">
+				<!-- ============================================================== -->
+				<!-- Logo -->
+				<!-- ============================================================== -->
+				<a class="navbar-brand" th:href="@{/}"> <!-- Logo icon --> <b
+					class="logo-icon"> <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+						<!-- Dark Logo icon --> <img th:src="@{/Admin/assets/images/logo-icon.png}"
+						alt="homepage" class="dark-logo" />
+
+				</b> <!--End Logo icon --> <!-- Logo text --> <span class="logo-text">
+						<!-- dark Logo text --> <img th:src="@{/Admin/assets/images/logo-text.png}"
+						alt="homepage" class="dark-logo" />
+
+				</span>
+				</a>
+				<!-- ============================================================== -->
+				<!-- End Logo -->
+				<!-- ============================================================== -->
+				<!-- ============================================================== -->
+				<!-- toggle and nav items -->
+				<!-- ============================================================== -->
+				<a
+					class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
+					href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+			</div>
+			<!-- ============================================================== -->
+			<!-- End Logo -->
+			<!-- ============================================================== -->
+			<div class="navbar-collapse collapse" id="navbarSupportedContent"
+				data-navbarbg="skin5">
+
+				<!-- ============================================================== -->
+				<!-- toggle and nav items -->
+				<!-- ============================================================== -->
+				<ul class="navbar-nav me-auto mt-md-0 ">
+					<!-- ============================================================== -->
+					<!-- Search -->
+					<!-- ============================================================== -->
+
+					<li class="nav-item hidden-sm-down">
+						<form class="app-search ps-3">
+							<input type="text" class="form-control"
+								placeholder="Search for..."> <a class="srh-btn"><i
+								class="ti-search"></i></a>
+						</form>
+					</li>
+				</ul>
+
+				<!-- ============================================================== -->
+				<!-- Right side toggle and nav items -->
+				<!-- ============================================================== -->
+				<ul class="navbar-nav">
+					<!-- ============================================================== -->
+					<!-- User profile and search -->
+					<!-- ============================================================== -->
+					<li class="nav-item dropdown" ><a
+						class="nav-link dropdown-toggle waves-effect waves-dark" href="#"
+						id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false"> <img th:src="@{/Admin/assets/images/users/1.jpg}"
+							alt="user" class="profile-pic me-2">
+						<!-- 	<h2 th:unless="${userLogined == null}">
+								<span th:utext="${userLogined.Username}">		</span>
+							</h2> -->
+					
+					</a>
+						<ul class="dropdown-menu show" aria-labelledby="navbarDropdown"></ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+</div>
+
+<div th:fragment="leftSidebar">
+	<aside class="left-sidebar" data-sidebarbg="skin6">
+		<!-- Sidebar scroll-->
+		<div class="scroll-sidebar">
+			<!-- Sidebar navigation-->
+			<nav class="sidebar-nav">
+				<ul id="sidebarnav">
+					<!-- User Profile-->
+
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						href="" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Admin</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/User}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">User</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/Category}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Categories</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/products}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Product</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/Order}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Order</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/Shipper}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Shiper</span></a></li>
+					<li class="sidebar-item"><a
+						class="sidebar-link waves-effect waves-dark sidebar-link"
+						th:href="@{/Admin/homeReview}" aria-expanded="false"> <i
+							class="me-3 fa fa-table" aria-hidden="true"></i><span
+							class="hide-menu">Feedback</span></a></li>
+
+
+				</ul>
+			</nav>
+
+		</div>
+	</aside>
+</div>
+<!-- footer -->
+<!-- ============================================================== -->
+<div th:fragment="Footer">
+	<footer class="footer text-center">
+		© 2021 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+	</footer>
+</div>
+<!-- ============================================================== -->
+<!-- End footer -->
+<!-- ============================================================== -->
+
+

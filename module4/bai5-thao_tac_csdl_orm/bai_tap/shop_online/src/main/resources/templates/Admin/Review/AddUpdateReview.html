@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="Admin/fragments/AdminLayout:: Head"></head>
+
+<body>
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div class="lds-pos"></div>
+			<div class="lds-pos"></div>
+		</div>
+	</div>
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6"
+		data-sidebartype="full" data-sidebar-position="absolute"
+		data-header-position="absolute" data-boxed-layout="full">
+		<!-- ============================================================== -->
+		<!-- Topbar header - style you can find in pages.scss -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: Header"></div>
+		<!-- ============================================================== -->
+		<!-- End Topbar header -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: leftSidebar"></div>
+		<!-- End Sidebar scroll-->
+		</aside>
+		<!-- ============================================================== -->
+		<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Page wrapper  -->
+		<!-- ============================================================== -->
+		<div class="page-wrapper">
+			<!-- ============================================================== -->
+			<!-- Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<div class="page-breadcrumb">
+				<div class="row align-items-center">
+					<div class="col-md-6 col-8 align-self-center">
+						<h3 class="page-title mb-0 p-0">FeedBack</h3>
+						<div class="d-flex align-items-center">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="/review">Home Review</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Add Review</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================================================== -->
+			<!-- End Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- Container fluid  -->
+			<!-- ============================================================== -->
+			<div class="container-fluid">
+				<!-- ============================================================== -->
+				<!-- Sales chart -->
+				<!-- ============================================================== -->
+
+				<!-- ============================================================== -->
+				<!-- Table -->
+				<!-- ============================================================== -->
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="d-md-flex">
+									<h2 class="card-title col-md-10 mb-md-0 mb-3 align-self-center">Add & Edit 
+										</h2>
+
+									<div class="col-md-2 ms-auto">
+										<form action="">
+											<div style="display: flex;">
+												<select class="form-select shadow-none col-md-2 ml-auto">
+													<option selected>January</option>
+													<option value="1">February</option>
+													<option value="2">March</option>
+													<option value="3">April</option>
+													<option value="4">May</option>
+													<option value="5">June</option>
+													<option value="6">July</option>
+													<option value="7">August</option>
+													<option value="8">September</option>
+													<option value="9">October</option>
+													<option value="10">November</option>
+													<option value="11">December</option>
+												</select>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class="table-responsive mt-5">
+									
+									<form action="#" th:action="@{/Admin/SaveReview}" th:object="${review}"
+										method="post">
+
+										<table class="table stylish-table no-wrap">
+										
+									<tr>
+												<td><input type="hidden" th:field="*{id}" /></td>
+											</tr>
+											<tr>
+												<td>ID Khach Hang:</td>
+												<td><input type="text" th:field="*{usersEnityReviews.id}" /></td>
+											</tr>
+											<tr>
+												<td>Khach Hang Danh Gia:</td>
+												<td><input type="text" th:field="*{rate}" /></td>
+											</tr>
+											<tr>
+												<td>Khach Hang Nhan Xet:</td>
+												<td><input type="text" th:field="*{content}" /></td>
+											</tr>
+											<tr>
+												<td>ID San Pham</td>
+												<td><input type="text" th:field="*{productsEnityReviews.id}" /></td>
+											</tr>
+											
+					
+											<tr>
+												<td colspan="2"><button type="submit" class="btn btn-warning">Save</button></td>
+											</tr>
+										</table>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ============================================================== -->
+			<!-- Table -->
+			<!-- ============================================================== -->
+
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- footer -->
+			<!-- ============================================================== -->
+			<div th:replace="Admin/fragments/AdminLayout:: Footer"></div>
+			<!-- ============================================================== -->
+			<!-- End footer -->
+			<!-- ============================================================== -->
+		</div>
+
+	</div>
+
+</body>
+
+</html>

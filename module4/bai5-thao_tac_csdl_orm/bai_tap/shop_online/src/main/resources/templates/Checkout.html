@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form class="login100-form validate-form" th:object="${resgisterDTO2}"
+		th:action="@{/Checkout}" method="post">
+		<div class="wrap-input100 validate-input"
+			data-validate="Username is required">
+			<span class="label-input100">Username</span> <input class="input100"
+				type="text" name="eCode" th:field="*{eCode}"
+				placeholder="Username..."> <span class="focus-input100"></span>
+		</div>
+		<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">Sign Up</button>
+						</div>
+	</form>
+</body>
+</html>

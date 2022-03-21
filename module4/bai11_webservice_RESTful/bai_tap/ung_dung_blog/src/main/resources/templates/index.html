@@ -1,0 +1,28 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Search by name:
+    <input name="search" type="text"/>
+    <input type="submit" value="Search"/>
+</form>
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>description</th>
+        <th>Category</th>
+    </tr>
+    <tr th:each="blog:${blogs}">
+        <td th:text="${blog.id}"></td>
+        <td th:text="${blog.description}"></td>
+        <td th:text="${blog.category.nameCategory}"></td>
+<!--        <td><a class="btn btn-warning" role="button" th:href="@{/edit-customer/__${customer.id}__ } ">Edit</a></td>-->
+<!--        <td><a class="btn btn-danger" role="button" th:href="@{/delete-customer/__${customer.id}__ } ">Delete</a></td>-->
+    </tr>
+</table>
+</body>
+</html>

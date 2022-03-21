@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="Admin/fragments/AdminLayout:: Head"></head>
+
+<body>
+	<!-- ============================================================== -->
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div class="lds-pos"></div>
+			<div class="lds-pos"></div>
+		</div>
+	</div>
+	<!-- ============================================================== -->
+	<!-- Main wrapper - style you can find in pages.scss -->
+	<!-- ============================================================== -->
+	<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin6"
+		data-sidebartype="full" data-sidebar-position="absolute"
+		data-header-position="absolute" data-boxed-layout="full">
+		<!-- ============================================================== -->
+		<!-- Topbar header - style you can find in pages.scss -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: Header"></div>
+		<!-- ============================================================== -->
+		<!-- End Topbar header -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<div th:replace="Admin/fragments/AdminLayout:: leftSidebar"></div>
+		<!-- End Sidebar scroll-->
+		</aside>
+		<!-- ============================================================== -->
+		<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+		<!-- ============================================================== -->
+		<!-- ============================================================== -->
+		<!-- Page wrapper  -->
+		<!-- ============================================================== -->
+		<div class="page-wrapper">
+			<!-- ============================================================== -->
+			<!-- Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<div class="page-breadcrumb">
+				<div class="row align-items-center">
+					<div class="col-md-6 col-8 align-self-center">
+						<h3 class="page-title mb-0 p-0">Feedback</h3>
+						<div class="d-flex align-items-center">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#">ManagerAdmin</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Feedback</li>
+								</ol>
+							</nav>
+
+						</div>
+					</div>
+					<div class="col-md-6 col-4 align-self-center">
+						<div class="text-end upgrade-btn">
+							<a href="https://www.wrappixel.com/templates/monsteradmin/"
+								class="btn btn-success d-none d-md-inline-block text-white"
+								target="_blank">Update feedback all</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================================================== -->
+			<!-- End Bread crumb and right sidebar toggle -->
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- Container fluid  -->
+			<!-- ============================================================== -->
+			<div class="container-fluid">
+				<!-- ============================================================== -->
+				<!-- Sales chart -->
+				<!-- ============================================================== -->
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="d-md-flex">
+									<h4 class="card-title col-md-10 mb-md-0 mb-3 align-self-center">Feedback
+										of the Month</h4>
+									<div class="col-md-2 ms-auto">
+
+										<form th:action="@{/Admin/homeReview}">
+
+											<input type="date" th:value="${date}" id="date" name="date">
+											<input type="submit" value="Search">
+										</form>
+									</div>
+
+								</div>
+							</div>
+							<div class="table-responsive mt-5">
+								<table class="table stylish-table no-wrap">
+									<a th:href="@{/Admin/addReview}"><button type="button"
+											class="btn btn-warning">Add Review</button></a>
+									<thead>
+										<tr>
+											<th class="border-top-0">Image</th>
+											<th class="border-top-0" colspan="1">Tên Khách Hàng</th>
+											<th class="border-top-0">Đánh Gía Sao</th>
+											<th class="border-top-0">Nhận Xét</th>
+											<th class="border-top-0">Số Lượng Sản Phẩm</th>
+											<th class="border-top-0">Lựa chọn</th>
+										</tr>
+									</thead>
+									<tbody>
+										<th:block th:each="review : ${review}">
+											<tr>
+												<td style="width: 50px;"><span class="round">S</span></td>
+												<td class="align-middle">
+													<h6>
+														<li th:text="${review.usersEnityReviews.username}"></li>
+													</h6>
+												</td>
+												<td class="align-middle">
+													<h6>
+														<li th:text="${review.rate}"></li>
+													</h6>
+												</td>
+												<td class="align-middle">
+													<h6>
+														<li th:text="${review.content}"></li>
+													</h6>
+
+												</td>
+												<td class="align-middle">
+													<h6>
+														<li th:text="${review.createdDate}"></li>
+													</h6>
+												</td>
+
+												<td class="align-middle"><a
+													th:href="@{/Admin/editReview?id={id}(id=${review.id})}"><button
+															type="button" class="btn btn-warning">Edit</button></a> <a
+													th:href="@{/Admin/deleteReview?id={id}(id=${review.id})}"><button
+															type="button" class="btn btn-danger">Delete</button></a></td>
+											</tr>
+										</th:block>
+									</tbody>
+								</table>
+							</div>
+							<div style="text-align: center">
+								<th:block
+									th:each="i: ${#numbers.sequence(1, review.TotalPages)}">
+
+									<a th:href="@{'/Admin/homeReview?pageId=' + ${i}}"> <span
+										th:utext="${i}"> </span>
+									</a>
+
+								</th:block>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================================================== -->
+			<!-- Table -->
+			<!-- ============================================================== -->
+
+			<!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- footer -->
+			<!-- ============================================================== -->
+			<div th:replace="Admin/fragments/AdminLayout:: Footer"></div>
+			<!-- ============================================================== -->
+			<!-- End footer -->
+			<!-- ============================================================== -->
+		</div>
+
+	</div>
+
+</body>
+
+</html>
