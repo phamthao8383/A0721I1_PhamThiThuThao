@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="title icon" href="/static/icon/icon1.jpg">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styleadmin.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+<!-- navbar -->
+<div th:replace="/admin/admin :: nav">
+</div>
+<!-- end of navbar -->
+<!-- modal logout-->
+<div class="modal fade" id="sign-out">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Want to leave?</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;
+                </button>
+            </div>
+            <div class="modal-body">
+                Press logout to leave
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Stay Here</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Logout</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- end of modal-->
+<!-- tables -->
+<section>
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 80px">
+            <div class="col-xl-9 col-lg-8 col-md-8 ml-auto">
+                <div class="row align-items-center">
+                    <div class="col-xl-12 col-12 mb-4 mb-xl-0">
+                        <h3 class="text-muted text-center mb-3">Category </h3>
+                        <!--                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleCategory">-->
+                        <!--                            Create-->
+                        <!--                        </button>-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createProduct">
+                            Create
+                        </button>
+                        <br>
+                        <br>
+                        <div class="table-responsive">
+                            <table class="table table-striped bg-light text-center">
+                                <thead>
+                                <tr class="text-muted">
+                                    <th>STT</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Category</th>
+                                    <th>Size</th>
+                                    <th>Quantity</th>
+                                    <th colspan="2">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each="product:${products}">
+                                    <td th:text="${product.id}"></td>
+                                    <td th:text="${product.name}"></td>
+                                    <td th:text="${product.category.name}"></td>
+                                    <td th:text="${product.productSizes.size}"></td>
+                                    <td th:text="${product.productSizes.quantity}"></td>
+                                    <td><a class="btn btn-warning" type="button"
+                                           th:href="@{/admin/home/product/edit-product/__${product.id}__ } ">Edit</a>
+                                    </td>
+                                    <td> <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalLong">
+                                            Delete
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- pagination -->
+                        <div>
+                            <a th:href="@{'/admin/home/product'(page=${products.number - 1})}"
+                               th:if="${products.hasPrevious()}">Previous</a>
+                            <span th:text="${products.number + 1}"></span>/<span
+                                th:text="${products.totalPages}"></span>
+                            <a th:href="@{'/admin/home/product'(page=${products.number + 1})}"
+                               th:if="${products.hasNext()}">Next</a>
+                        </div>
+                        <!-- end of pagination -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of tables -->
+</body>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="createProduct" tabindex="-1" role="dialog" aria-labelledby="createProductLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createProductLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form th:action="@{/admin/home/product/create}" th:object="${productForm}" method="post">
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label">Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control"  type="text" th:field="*{name}"/>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label">Description</label>
+                        <div class="col-sm-9">
+                            <input class="form-control"  type="text" th:field="*{description}"/>
+                        </div>
+                    </div>
+                    <div class="form form-control">
+                        <label> Category</label>
+                        <select th:field="${productForm.category}">
+                            <option th:each="category:${categories}" th:text="${category.name}" th:value="${category.idCategory}"></option>
+                        </select>
+                    </div>
+<!--                    <div class="form form-control">-->
+<!--                        <label> Size</label>-->
+<!--                        <select th:field="${productForm.productSizes}">-->
+<!--                            <option th:each="productSize:${productSizes}" th:text="${productSize.size}" th:value="${productSize.id}"></option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Quantity</label>-->
+<!--                        <select th:field="${productForm.productSizes}">-->
+<!--                            <option th:each="productSize:${productSizes}" th:text="${productSize.quantity}" th:value="${productSize.id}"></option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="modal fade" id="exampleCategory" tabindex="-1" role="dialog" aria-labelledby="exampleCategoryLabel" aria-hidden="true">-->
+<!--    <div class="modal-dialog" role="document">-->
+<!--        <div class="modal-content">-->
+<!--            <div class="modal-header">-->
+<!--                <h5 class="modal-title" id="exampleCategoryLabel">Modal title</h5>-->
+<!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                    <span aria-hidden="true">&times;</span>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <div class="modal-body">-->
+<!--                <form th:action="@{/admin/home/category/create}" th:object="${categoriesForm}" method="post">-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Name</label>-->
+<!--                        <input type="text" th:field="*{name}"/>-->
+<!--                    </div>-->
+<!--                    <br>-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Description</label>-->
+<!--                        <input type="text" th:field="*{description}"/>-->
+<!--                    </div>-->
+<!--                    div class="modal-footer">-->
+<!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--            </form>-->
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
+</div>
+
+
+--edit--
+<!--<div class="modal fade" id="editCategoryModal" tabindex="-1" role="dialog" aria-labelledby="editCategoryLabel" aria-hidden="true">-->
+<!--    <div class="modal-dialog" role="document">-->
+<!--        <div class="modal-content">-->
+<!--            <div class="modal-header">-->
+<!--                <h5 class="modal-title" id="editCategoryLabel">Modal title</h5>-->
+<!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                    <span aria-hidden="true">&times;</span>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <div class="modal-body">-->
+<!--                <form th:action="@{/admin/home/category/create}" th:object="${categories}" method="post">-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Name</label>-->
+<!--                        <input type="text" th:field="*{name}"/>-->
+<!--                    </div>-->
+<!--                    <br>-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Description</label>-->
+<!--                        <input type="text" th:field="*{description}"/>-->
+<!--                    </div>-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Created At</label>-->
+<!--                        <input type="date" th:field="*{createdAt}"/>-->
+<!--                    </div>-->
+<!--                    <div class="form form-control">-->
+<!--                        <label> Updated At</label>-->
+<!--                        <input type="date" th:field="*{updatedAt}"/>-->
+<!--                    </div>-->
+<!--                    <div class="modal-footer">-->
+<!--                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+<!--                        <button type="submit" class="btn btn-primary">Edit</button>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+--delete--
+<!--<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">-->
+<!--    <div class="modal-dialog" role="document">-->
+<!--        <div class="modal-content">-->
+<!--            <div class="modal-header">-->
+<!--                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>-->
+<!--                <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                    <span aria-hidden="true">&times;</span>-->
+<!--                </button>-->
+<!--            </div>-->
+<!--            <div class="modal-body">-->
+<!--                Xác nhận xóa-->
+<!--            </div>-->
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+<!--                <a class="btn btn-warning" type="button"-->
+<!--                   th:href="@{/admin/home/category/delete-category/__${category.idCategory}__ } ">Delete</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
+</html>

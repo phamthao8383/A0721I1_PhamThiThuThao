@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a15bf80d-afd4-4111-ab45-148507ccfa44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai11_webservice_RESTful/bai_tap/ung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai12_jquery_ajax/thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/phones/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/java/com/example/su_dung_spring_security/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/java/com/example/su_dung_spring_security/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/java/com/example/su_dung_spring_security/security/SecurityInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14_spring_security/thuc_hanh/su_dung_spring_security/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai15_phan_quyen_ung_dung/thuc_hanh/phan_quyen_ung_dung/src/main/java/com/example/phan_quyen_ung_dung/config/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai15_phan_quyen_ung_dung/thuc_hanh/phan_quyen_ung_dung/src/main/java/com/example/phan_quyen_ung_dung/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai15_phan_quyen_ung_dung/thuc_hanh/phan_quyen_ung_dung/src/main/java/com/example/phan_quyen_ung_dung/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai15_phan_quyen_ung_dung/thuc_hanh/phan_quyen_ung_dung/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai15_phan_quyen_ung_dung/thuc_hanh/phan_quyen_ung_dung/src/main/resources/templates/views.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/controller/ServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/model/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/model/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/repository/RentTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/repository/ServiceTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/RentTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/ServiceTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/impl/RentTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/impl/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/impl/ServiceTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/service/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/service/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/service/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/config/DataSeedingListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/ultil/EncrypPasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/DTO/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/config/DataSeedingListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/java/com/example/casestudy/ultil/EncrypPasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casestudy/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai11_webservice_RESTful/bai_tap/ung_dung_blog/src/main/java/com/example/ung_dung_blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai11_webservice_RESTful/bai_tap/ung_dung_blog/src/main/java/com/example/ung_dung_blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai11_webservice_RESTful/bai_tap/ung_dung_blog/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai11_webservice_RESTful/bai_tap/ung_dung_blog/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai12_jquery_ajax/thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/phones/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai12_jquery_ajax/thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/phones/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/CustomerTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/CustomerTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/java/com/example/casestudy/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai3_views_thymeleaf/bai_tap/casestudy/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/bai_tap/shop_online/src/main/java/fresher/Team3/Confs/LinkUpLoadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/bai_tap/shop_online/src/main/java/fresher/Team3/Confs/LinkUpLoadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao_tac_csdl_orm/thuc_hanh/demo2/demo2/src/main/java/com/example/demo/repository/CustomerRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27QUNFR1UCFG3epb7GjzRpQs398" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../validation_form_input" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a15bf80d-afd4-4111-ab45-148507ccfa44" name="Changes" comment="" />
+      <created>1649251762512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649251762512</updated>
+      <workItem from="1649251763632" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

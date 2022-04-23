@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="home.html">
+    <meta charset="UTF-8">
+    <title>Edit customer</title>
+</head>
+<body>
+<center>
+<h1 style="color: blue">Edit customer</h1>
+<form th:action="@{/admin/customer/edit-customer}" th:object="${customer}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td> Name:</td>
+            <td><input class="bottom-nav"  type="text" th:field="*{name}"/></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" th:field="*{address}"/></td>
+        </tr>
+        <tr>
+            <td>Birthday:</td>
+            <td><input type="date" th:field="*{birthday}"/></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" th:field="*{email}"/></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" th:field="*{phone}"/></td>
+        </tr>
+        <tr>
+            <td>Name CustomerType</td>
+            <td><select th:field="*{customerType}">//${customer.province}
+                <option th:each="customerType:${customerTypes}" th:text="${customerType.name}" th:value="${customerType.id}"></option>
+            </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td><input  type="submit"  value="Update customer" class="btn btn-success"></td>
+        </tr>
+    </table>
+
+</form>
+</center>
+</body>
+
+</html>

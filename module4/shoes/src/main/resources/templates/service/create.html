@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head th:replace="home.html">
+    <meta charset="UTF-8">
+    <title>Create customer</title>
+</head>
+<body>
+<h1>Create Service</h1>
+<!--<p>-->
+<!--    <a class="btn btn-default" href="/home/customer">Home</a>-->
+<!--</p>-->
+<form th:action="@{/member/service/create}" th:object="${services}" method="post">
+    <div class="form form-control">
+        <label> name:</label>
+        <input  type="text" th:field="*{name}"/>
+        <span class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label> Area:</label>
+        <input  type="text" th:field="*{area}"/>
+        <span class="text-danger" th:if="${#fields.hasErrors('area')}" th:errors="*{area}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label> Cost:</label>
+        <input  type="text" th:field="*{cost}"/>
+        <span class="text-danger" th:if="${#fields.hasErrors('cost')}" th:errors="*{cost}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label> Max people:</label>
+        <input  type="text" th:field="*{max_people}"/></td>
+        <span class="text-danger" th:if="${#fields.hasErrors('max_people')}" th:errors="*{max_people}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label> Number floor:</label>
+        <input type="text" th:field="*{number_floor}"/></td>
+        <span class="text-danger" th:if="${#fields.hasErrors('number_floor')}"
+              th:errors="*{number_floor}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label> Decription:</label>
+        <input  type="text" th:field="*{description}"/></td>
+        <span class="text-danger" th:if="${#fields.hasErrors('description')}"
+              th:errors="*{description}">Name Error</span>
+    </div>
+    <div class="form form-control">
+        <label>Name RentType</label>
+        <select th:field="${services.rentType}">//${customer.province}
+            <option th:each="rentType:${rentTypes}" th:text="${rentType.name}" th:value="${rentType.id}"></option>
+        </select>
+
+    </div>
+    <div class="form form-control">
+        <label>Name ServiceType</label>
+        <select th:field="${services.serviceType}">//${customer.province}
+            <option th:each="serviceType:${serviceTypes}" th:text="${serviceType.name}"
+                    th:value="${serviceType.id}"></option>
+        </select>
+
+    </div>
+
+    <input type="submit" value="Create Service">
+
+</form>
+</body>
+</html>
